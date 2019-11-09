@@ -1,15 +1,8 @@
--9207188442510458488
+-9207193135736940969
 2450AT18B100E
 ANT_2450AT18B100E
 
 
-0
-2
-2
-01550900M
-0154.250DR
-0154.250DR
-Undefined or Miscellaneous
 0
 2
 2
@@ -67409,13 +67402,6 @@ Diode
 0
 2
 2
-TPS40192DRCT
-SON50P300X300X100-11N
-DRC (S-PVSON-N10)
-Integrated Circuit
-0
-11
-11
 TPS56221
 TPS56221
 
@@ -67437,13 +67423,6 @@ Integrated Circuit
 0
 6
 6
-Teensy40
-Teensy40
-
-
-0
-34
-34
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -72281,13 +72260,6 @@ CHUCK-OUTIE
 0
 5
 5
-footprints
-PCF8574RGTR
-
-
-0
-17
-17
 pads1x4
 1x4Pads
 

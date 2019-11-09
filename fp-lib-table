@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name TPS40192DRCT)(type Legacy)(uri "/home/kbisland/Documents/SmallKatV2/SmallKat v2/TPS40192/TPS40192DRCT.mod")(options "")(descr ""))
-  (lib (name 01550900M)(type Legacy)(uri /home/kbisland/Downloads/01550900M/KiCad/01550900M.mod)(options "")(descr ""))
-)
