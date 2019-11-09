@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS40192DRCT
+D 4.5V to 18V Input, 20A Synchronous Buck Controller with Power Good, 600kHz
+K
+F http://www.ti.com/lit/ds/symlink/tps40192.pdf
+$ENDCMP
+#
+#End Doc Library
