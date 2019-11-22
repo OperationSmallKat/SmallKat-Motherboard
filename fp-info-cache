@@ -1,8 +1,15 @@
--9207193135736940969
+-9207188391055910171
 2450AT18B100E
 ANT_2450AT18B100E
 
 
+0
+2
+2
+01550900M
+0154.250DR
+0154.250DR
+Undefined or Miscellaneous
 0
 2
 2
@@ -34,6 +41,13 @@ Transistor
 0
 7
 7
+BQ24105RHLR
+BQ51050BRHLR
+RHL0020A
+Integrated Circuit
+0
+21
+21
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49503,6 +49517,13 @@ LitleFuse-154TL
 0
 2
 2
+MAX34409ETE+
+QFN65P400X400X80-17N
+16 TQFN-E
+Integrated Circuit
+0
+17
+17
 MC33926PNB
 QFN80P800X800X220-33N
 32-PIN PQFN
@@ -66051,6 +66072,13 @@ Integrated Circuit
 0
 9
 9
+STUSB4700QTR
+QFN50P400X400X100-25N
+QFN24 EP 4x4 mm
+Integrated Circuit
+0
+25
+25
 Sensor_Audio
 Infineon_PG-LLGA-5-1
 Infineon_PG-LLGA-5-1 StepUp generated footprint, https://www.infineon.com/cms/en/product/packages/PG-LLGA/PG-LLGA-5-1/
@@ -67402,13 +67430,6 @@ Diode
 0
 2
 2
-TPS56221
-TPS56221
-
-
-0
-23
-12
 TPS84621RUQT
 RUQ_1
 RUQ (R-PB1QFN-N47)

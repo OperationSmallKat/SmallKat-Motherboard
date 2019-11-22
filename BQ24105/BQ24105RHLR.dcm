@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ24105RHLR
+D Standalone synchronous switch-mode Li-Ion charger w/2A FET in QFN-20, 1 to 3 cells 
+K
+F http://www.ti.com/lit/gpn/bq24105
+$ENDCMP
+#
+#End Doc Library

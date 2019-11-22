@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STUSB4700QTR
+D STMICROELECTRONICS - STUSB4700QTR - PD CONTROLLER, USB 2.0, QFN-24
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/4a/1f/85/85/57/7d/41/b7/DM00356577/files/DM00356577.pdf/jcr:content/translations/en.DM00356577.pdf
+$ENDCMP
+#
+#End Doc Library
