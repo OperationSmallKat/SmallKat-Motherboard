@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 7 12
 Title ""
 Date ""
 Rev ""
@@ -176,17 +176,6 @@ F 3 "" H 2700 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0116
-U 1 1 5DD553A5
-P 2700 700
-F 0 "#PWR0116" H 2700 550 50  0001 C CNN
-F 1 "+3.3V" H 2715 873 50  0000 C CNN
-F 2 "" H 2700 700 50  0001 C CNN
-F 3 "" H 2700 700 50  0001 C CNN
-	1    2700 700 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DD716B9
 P 10000 2700
@@ -229,17 +218,6 @@ F 3 "~" H 10550 2550 50  0001 C CNN
 	1    10550 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0118
-U 1 1 5DD71FA4
-P 10550 2400
-F 0 "#PWR0118" H 10550 2250 50  0001 C CNN
-F 1 "+3.3V" H 10565 2573 50  0000 C CNN
-F 2 "" H 10550 2400 50  0001 C CNN
-F 3 "" H 10550 2400 50  0001 C CNN
-	1    10550 2400
-	1    0    0    -1  
-$EndComp
 Text Label 10550 2700 3    50   ~ 0
 SOFTPOWER
 $Comp
@@ -253,24 +231,13 @@ F 3 "~" H 1350 1750 50  0001 C CNN
 	1    1350 1750
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3.3V #PWR0119
-U 1 1 5DD74265
-P 1200 1750
-F 0 "#PWR0119" H 1200 1600 50  0001 C CNN
-F 1 "+3.3V" V 1215 1878 50  0000 L CNN
-F 2 "" H 1200 1750 50  0001 C CNN
-F 3 "" H 1200 1750 50  0001 C CNN
-	1    1200 1750
-	0    -1   -1   0   
-$EndComp
-Text HLabel 2500 1350 2    50   Input ~ 0
+Text HLabel 2500 1550 2    50   Input ~ 0
 6VEN
-Text HLabel 2500 1450 2    50   Input ~ 0
+Text HLabel 2500 1350 2    50   Input ~ 0
 3.3VEN
-Text Label 2500 1550 0    50   ~ 0
+Text Label 1500 2450 2    50   ~ 0
 BUZZER
-Text Label 2500 1650 0    50   ~ 0
+Text Label 2500 2550 0    50   ~ 0
 SOFTPOWER
 Text HLabel 2500 2250 2    50   Input ~ 0
 SCL
@@ -302,28 +269,6 @@ Text HLabel 5150 1850 3    50   Input ~ 0
 SCL
 Text HLabel 5550 2100 3    50   Input ~ 0
 SDA
-$Comp
-L power:+3.3V #PWR0120
-U 1 1 5DDEA72E
-P 5150 1550
-F 0 "#PWR0120" H 5150 1400 50  0001 C CNN
-F 1 "+3.3V" H 5165 1723 50  0000 C CNN
-F 2 "" H 5150 1550 50  0001 C CNN
-F 3 "" H 5150 1550 50  0001 C CNN
-	1    5150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0121
-U 1 1 5DDEAA5E
-P 5550 1800
-F 0 "#PWR0121" H 5550 1650 50  0001 C CNN
-F 1 "+3.3V" H 5565 1973 50  0000 C CNN
-F 2 "" H 5550 1800 50  0001 C CNN
-F 3 "" H 5550 1800 50  0001 C CNN
-	1    5550 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5DDFD816
@@ -365,8 +310,129 @@ F 3 "" H 1950 4250 50  0001 C CNN
 $EndComp
 Text Label 1350 4250 2    50   ~ 0
 MONITORING
-Text Label 1500 2250 2    50   ~ 0
+Text Label 2500 2850 0    50   ~ 0
 MONITORING
 Text HLabel 1500 1350 0    50   Input ~ 0
 NRST
+$Comp
+L Connector:TestPoint TP21
+U 1 1 5DD98422
+P 2500 2750
+F 0 "TP21" V 2454 2938 50  0000 L CNN
+F 1 "TestPoint" V 2545 2938 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 2750 50  0001 C CNN
+F 3 "~" H 2700 2750 50  0001 C CNN
+	1    2500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 5DD98941
+P 2500 2650
+F 0 "TP20" V 2454 2838 50  0000 L CNN
+F 1 "TestPoint" V 2545 2838 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2700 2650 50  0001 C CNN
+F 3 "~" H 2700 2650 50  0001 C CNN
+	1    2500 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5DD98E3F
+P 4000 2300
+F 0 "TP22" H 4058 2418 50  0000 L CNN
+F 1 "TestPoint" H 4058 2327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4200 2300 50  0001 C CNN
+F 3 "~" H 4200 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5DD99037
+P 4500 2300
+F 0 "TP23" H 4558 2418 50  0000 L CNN
+F 1 "TestPoint" H 4558 2327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4700 2300 50  0001 C CNN
+F 3 "~" H 4700 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0328
+U 1 1 5DD99506
+P 4500 2300
+F 0 "#PWR0328" H 4500 2050 50  0001 C CNN
+F 1 "GND" H 4505 2127 50  0000 C CNN
+F 2 "" H 4500 2300 50  0001 C CNN
+F 3 "" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR0330
+U 1 1 5DE1CE97
+P 2700 700
+F 0 "#PWR0330" H 2700 550 50  0001 C CNN
+F 1 "+3.3VA" H 2715 873 50  0000 C CNN
+F 2 "" H 2700 700 50  0001 C CNN
+F 3 "" H 2700 700 50  0001 C CNN
+	1    2700 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR0118
+U 1 1 5DE246F8
+P 1200 1750
+F 0 "#PWR0118" H 1200 1600 50  0001 C CNN
+F 1 "+3.3VA" V 1215 1877 50  0000 L CNN
+F 2 "" H 1200 1750 50  0001 C CNN
+F 3 "" H 1200 1750 50  0001 C CNN
+	1    1200 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3VA #PWR0119
+U 1 1 5DE24966
+P 5150 1550
+F 0 "#PWR0119" H 5150 1400 50  0001 C CNN
+F 1 "+3.3VA" H 5165 1723 50  0000 C CNN
+F 2 "" H 5150 1550 50  0001 C CNN
+F 3 "" H 5150 1550 50  0001 C CNN
+	1    5150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR0120
+U 1 1 5DE2593B
+P 5550 1800
+F 0 "#PWR0120" H 5550 1650 50  0001 C CNN
+F 1 "+3.3VA" H 5565 1973 50  0000 C CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR0121
+U 1 1 5DE25D96
+P 10550 2400
+F 0 "#PWR0121" H 10550 2250 50  0001 C CNN
+F 1 "+3.3VA" H 10565 2573 50  0000 C CNN
+F 2 "" H 10550 2400 50  0001 C CNN
+F 3 "" H 10550 2400 50  0001 C CNN
+	1    10550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5DE37C49
+P 4000 2300
+F 0 "#PWR?" H 4000 2150 50  0001 C CNN
+F 1 "+3.3VA" H 4015 2473 50  0000 C CNN
+F 2 "" H 4000 2300 50  0001 C CNN
+F 3 "" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

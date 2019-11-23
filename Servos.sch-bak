@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 14
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -1034,18 +1034,7 @@ F 3 "" H 3700 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3700 3800
-$Comp
-L Device:R R76
-U 1 1 5DDCC7FB
-P 3300 5250
-F 0 "R76" V 3093 5250 50  0000 C CNN
-F 1 "100R" V 3184 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 5250 50  0001 C CNN
-F 3 "~" H 3300 5250 50  0001 C CNN
-	1    3300 5250
-	0    1    1    0   
-$EndComp
-Text Label 3150 5250 2    50   ~ 0
+Text Label 4250 4350 1    50   ~ 0
 S5
 $Comp
 L Device:R R81
@@ -1058,7 +1047,7 @@ F 3 "~" H 3850 6400 50  0001 C CNN
 	1    3850 6400
 	1    0    0    -1  
 $EndComp
-Text Label 3850 6550 3    50   ~ 0
+Text Label 3150 5250 0    50   ~ 0
 S6
 $Comp
 L Device:R R90
@@ -1071,20 +1060,9 @@ F 3 "~" H 4800 5550 50  0001 C CNN
 	1    4800 5550
 	0    -1   -1   0   
 $EndComp
-Text Label 4950 5550 0    50   ~ 0
+Text Label 3850 6550 3    50   ~ 0
 S7
-$Comp
-L Device:R R85
-U 1 1 5DDCC810
-P 4250 4500
-F 0 "R85" V 4043 4500 50  0000 C CNN
-F 1 "100R" V 4134 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 4500 50  0001 C CNN
-F 3 "~" H 4250 4500 50  0001 C CNN
-	1    4250 4500
-	-1   0    0    1   
-$EndComp
-Text Label 4250 4350 1    50   ~ 0
+Text Label 4950 5550 0    50   ~ 0
 S8
 $Comp
 L power:GND #PWR0282
@@ -1267,7 +1245,7 @@ F 3 "~" H 5650 5200 50  0001 C CNN
 	1    5650 5200
 	0    1    1    0   
 $EndComp
-Text Label 5500 5200 2    50   ~ 0
+Text Label 7300 5500 0    50   ~ 0
 S9
 $Comp
 L Device:R R95
@@ -1280,7 +1258,7 @@ F 3 "~" H 6200 6350 50  0001 C CNN
 	1    6200 6350
 	1    0    0    -1  
 $EndComp
-Text Label 6200 6500 3    50   ~ 0
+Text Label 6600 4300 1    50   ~ 0
 S10
 $Comp
 L Device:R R103
@@ -1293,7 +1271,7 @@ F 3 "~" H 7150 5500 50  0001 C CNN
 	1    7150 5500
 	0    -1   -1   0   
 $EndComp
-Text Label 7300 5500 0    50   ~ 0
+Text Label 6200 6500 3    50   ~ 0
 S11
 $Comp
 L Device:R R101
@@ -1306,7 +1284,7 @@ F 3 "~" H 6600 4450 50  0001 C CNN
 	1    6600 4450
 	-1   0    0    1   
 $EndComp
-Text Label 6600 4300 1    50   ~ 0
+Text Label 5500 5200 2    50   ~ 0
 S12
 $Comp
 L power:GND #PWR0288
@@ -1529,7 +1507,7 @@ F 3 "~" H 9000 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 9000 4250 1    50   ~ 0
-S6
+S16
 $Comp
 L power:GND #PWR0294
 U 1 1 5DDD94A5
@@ -1922,4 +1900,26 @@ F 3 "" H 7350 2300 50  0001 C CNN
 $EndComp
 Text HLabel 7550 2300 3    50   Input ~ 0
 SERVO16
+$Comp
+L Device:R R85
+U 1 1 5DDCC810
+P 4250 4500
+F 0 "R85" V 4043 4500 50  0000 C CNN
+F 1 "100R" V 4134 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 4500 50  0001 C CNN
+F 3 "~" H 4250 4500 50  0001 C CNN
+	1    4250 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R76
+U 1 1 5DDCC7FB
+P 3300 5250
+F 0 "R76" V 3093 5250 50  0000 C CNN
+F 1 "100R" V 3184 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3230 5250 50  0001 C CNN
+F 3 "~" H 3300 5250 50  0001 C CNN
+	1    3300 5250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

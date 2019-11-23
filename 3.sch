@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -353,7 +353,7 @@ U 1 1 5DAC3463
 P 7300 2200
 F 0 "TP5" H 7358 2318 50  0000 L CNN
 F 1 "TestPoint" H 7358 2227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 7500 2200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 2200 50  0001 C CNN
 F 3 "~" H 7500 2200 50  0001 C CNN
 	1    7300 2200
 	1    0    0    -1  
@@ -546,4 +546,16 @@ F 3 "" H 4100 1350 50  0001 C CNN
 $EndComp
 Text HLabel 8200 1300 2    50   Input ~ 0
 EN
+$Comp
+L power:+3.3VA #PWR0116
+U 1 1 5DE1EB22
+P 4100 1000
+F 0 "#PWR0116" H 4100 850 50  0001 C CNN
+F 1 "+3.3VA" H 4115 1173 50  0000 C CNN
+F 2 "" H 4100 1000 50  0001 C CNN
+F 3 "" H 4100 1000 50  0001 C CNN
+	1    4100 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 1000
 $EndSCHEMATC

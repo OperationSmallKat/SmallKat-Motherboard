@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 14
+Sheet 5 12
 Title ""
 Date ""
 Rev ""
@@ -676,7 +676,7 @@ U 1 1 5DABF5B4
 P 9550 1450
 F 0 "TP8" H 9608 1568 50  0000 L CNN
 F 1 "TestPoint" H 9608 1477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 9750 1450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9750 1450 50  0001 C CNN
 F 3 "~" H 9750 1450 50  0001 C CNN
 	1    9550 1450
 	1    0    0    -1  
@@ -700,7 +700,7 @@ U 1 1 5DABFA0D
 P 9000 1450
 F 0 "TP7" H 9058 1568 50  0000 L CNN
 F 1 "TestPoint" H 9058 1477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 9200 1450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9200 1450 50  0001 C CNN
 F 3 "~" H 9200 1450 50  0001 C CNN
 	1    9000 1450
 	1    0    0    -1  
@@ -737,7 +737,7 @@ U 1 1 5DAC162F
 P 8450 1450
 F 0 "TP6" H 8508 1568 50  0000 L CNN
 F 1 "TestPoint" H 8508 1477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 8650 1450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8650 1450 50  0001 C CNN
 F 3 "~" H 8650 1450 50  0001 C CNN
 	1    8450 1450
 	1    0    0    -1  

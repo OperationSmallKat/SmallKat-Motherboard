@@ -515,7 +515,7 @@ U 1 1 5DB5807F
 P 3900 2850
 F 0 "TP17" H 3958 2968 50  0000 L CNN
 F 1 "TestPoint" H 3958 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4100 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4100 2850 50  0001 C CNN
 F 3 "~" H 4100 2850 50  0001 C CNN
 	1    3900 2850
 	1    0    0    -1  
@@ -526,7 +526,7 @@ U 1 1 5DB5843D
 P 4400 2850
 F 0 "TP18" H 4458 2968 50  0000 L CNN
 F 1 "TestPoint" H 4458 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4600 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4600 2850 50  0001 C CNN
 F 3 "~" H 4600 2850 50  0001 C CNN
 	1    4400 2850
 	1    0    0    -1  
@@ -559,7 +559,7 @@ U 1 1 5DAFE3EE
 P 1400 800
 F 0 "TP19" H 1458 918 50  0000 L CNN
 F 1 "TestPoint" H 1458 827 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 1600 800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1600 800 50  0001 C CNN
 F 3 "~" H 1600 800 50  0001 C CNN
 	1    1400 800 
 	1    0    0    -1  

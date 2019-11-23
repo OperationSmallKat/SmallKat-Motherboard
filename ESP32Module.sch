@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 14
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -721,7 +721,7 @@ AR Path="/5DAA9E7A/5DB7E2D8/5DAB9A90" Ref="TP13"  Part="1"
 AR Path="/5DB7E2D8/5DAB9A90" Ref="TP9"  Part="1" 
 F 0 "TP9" H 8958 1068 50  0000 L CNN
 F 1 "TestPoint" H 8958 977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 9100 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9100 950 50  0001 C CNN
 F 3 "~" H 9100 950 50  0001 C CNN
 	1    8900 950 
 	1    0    0    -1  
@@ -737,7 +737,7 @@ AR Path="/5DAA9E7A/5DB7E2D8/5DABA6D0" Ref="TP15"  Part="1"
 AR Path="/5DB7E2D8/5DABA6D0" Ref="TP11"  Part="1" 
 F 0 "TP11" H 9508 1068 50  0000 L CNN
 F 1 "TestPoint" H 9508 977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 9650 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9650 950 50  0001 C CNN
 F 3 "~" H 9650 950 50  0001 C CNN
 	1    9450 950 
 	1    0    0    -1  
@@ -753,7 +753,7 @@ AR Path="/5DAA9E7A/5DB7E2D8/5DABAA87" Ref="TP16"  Part="1"
 AR Path="/5DB7E2D8/5DABAA87" Ref="TP12"  Part="1" 
 F 0 "TP12" H 10058 1068 50  0000 L CNN
 F 1 "TestPoint" H 10058 977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 10200 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10200 950 50  0001 C CNN
 F 3 "~" H 10200 950 50  0001 C CNN
 	1    10000 950 
 	1    0    0    -1  
@@ -769,7 +769,7 @@ AR Path="/5DAA9E7A/5DB7E2D8/5DABAF8E" Ref="TP14"  Part="1"
 AR Path="/5DB7E2D8/5DABAF8E" Ref="TP10"  Part="1" 
 F 0 "TP10" H 8958 1418 50  0000 L CNN
 F 1 "TestPoint" H 8958 1327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 9100 1300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9100 1300 50  0001 C CNN
 F 3 "~" H 9100 1300 50  0001 C CNN
 	1    8900 1300
 	1    0    0    -1  
