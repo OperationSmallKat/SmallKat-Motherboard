@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -802,7 +801,7 @@ AR Path="/5DAA9390/5DAAB924/5DBC0E27" Ref="J19"  Part="1"
 AR Path="/5DB7E2D8/5DBC0E27" Ref="J19"  Part="1" 
 F 0 "J19" V 4353 8380 50  0000 L CNN
 F 1 "USB_C_Receptacle" V 4262 8380 50  0000 L CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 4350 7250 50  0001 C CNN
+F 2 "USB_C_Receptacle_Amphenol_12401610E4-2A:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 4350 7250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4350 7250 50  0001 C CNN
 	1    4200 7250
 	0    -1   -1   0   
