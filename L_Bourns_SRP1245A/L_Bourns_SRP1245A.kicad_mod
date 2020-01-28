@@ -1,4 +1,4 @@
-(module Inductor_SMD:L_Bourns_SRP1245A (layer F.Cu) (tedit 5DD198EC)
+(module L_Bourns_SRP1245A (layer F.Cu) (tedit 5E3092B6)
   (descr "Bourns SRP1245A series SMD inductor http://www.bourns.com/docs/Product-Datasheets/SRP1245A.pdf")
   (tags "Bourns SRP1245A SMD inductor")
   (attr smd)
@@ -48,6 +48,11 @@
   (pad 1 smd rect (at -6.5 0) (size 3.1 5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 6.5 0) (size 3.1 5) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRP1245A.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/L_Bourns_SRP1245A/SRP1245A series.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
