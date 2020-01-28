@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TPS40192DRCT:TPS40192DRCT IC?
+L SmallKat-v2-rescue:TPS40192DRCT-TPS40192DRCT IC?
 U 1 1 5DAD8199
 P 5100 2900
 AR Path="/5DAD8199" Ref="IC?"  Part="1" 
@@ -117,7 +116,7 @@ AR Path="/5DAD81C9" Ref="L?"  Part="1"
 AR Path="/5DAA9390/5DAC8B3A/5DAD81C9" Ref="L2"  Part="1" 
 F 0 "L2" V 7540 3250 50  0000 C CNN
 F 1 "1uH" V 7449 3250 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRP1245A" H 7350 3250 50  0001 C CNN
+F 2 "L_Bourns_SRP1245A:L_Bourns_SRP1245A" H 7350 3250 50  0001 C CNN
 F 3 "~" H 7350 3250 50  0001 C CNN
 	1    7350 3250
 	0    -1   -1   0   
