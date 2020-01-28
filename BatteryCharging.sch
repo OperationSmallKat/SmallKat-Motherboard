@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BQ24770:BQ24770 U12
+L SmallKat-v2-rescue:BQ24770-BQ24770 U12
 U 1 1 5DD6E3BB
 P 5750 2550
+AR Path="/5DD6E3BB" Ref="U12"  Part="1" 
+AR Path="/5DAA9390/5DD4BDB9/5DD6E3BB" Ref="U12"  Part="1" 
 F 0 "U12" H 6400 2050 50  0000 C CNN
 F 1 "BQ24770" H 6450 1900 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm" H 5750 3750 50  0001 C CNN

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -103,7 +102,7 @@ F 3 "" H 8100 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TPS562201DDCR:TPS562201DDCR IC?
+L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR IC?
 U 1 1 5DAB2074
 P 6700 1200
 AR Path="/5DAB2074" Ref="IC?"  Part="1" 

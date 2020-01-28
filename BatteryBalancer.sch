@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bq76925:bq76925 U13
+L SmallKat-v2-rescue:bq76925-bq76925 U13
 U 1 1 5DD78636
 P 5000 3450
 F 0 "U13" H 5744 3471 50  0000 L CNN
