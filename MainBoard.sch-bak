@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -119,13 +118,6 @@ F0 "BNO055" 50
 F1 "BNO055.sch" 50
 F2 "SDA" I L 7950 4900 50 
 F3 "SCL" I L 7950 5100 50 
-$EndSheet
-$Sheet
-S 7250 650  1750 1550
-U 5DAC8B3A
-F0 "6vSwitchMode" 50
-F1 "6vSwitchMode.sch" 50
-F2 "EN" I L 7250 1400 50 
 $EndSheet
 $Comp
 L Connector:Conn_01x02_Male J?
@@ -491,8 +483,6 @@ Text Label 7250 2800 2    50   ~ 0
 6VEN
 Text Label 7250 2950 2    50   ~ 0
 3.3VEN
-Text Label 7250 1400 2    50   ~ 0
-6VEN
 Text Label 9550 1400 2    50   ~ 0
 3.3VEN
 $Sheet
@@ -535,4 +525,13 @@ Wire Wire Line
 	1250 1250 1850 1250
 Wire Wire Line
 	1350 1950 1850 1950
+$Sheet
+S 7250 700  1750 1550
+U 5E0C112B
+F0 "sheet5E0C1128" 50
+F1 "6vSwitchMode.sch" 50
+F2 "EN" I L 7250 1450 50 
+$EndSheet
+Text Label 7250 1450 2    50   ~ 0
+6VEN
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PCA9641:PCA9641 U14
+L SmallKat-v2-rescue:PCA9641-PCA9641 U14
 U 1 1 5DD9F97C
 P 4750 3450
 F 0 "U14" H 5444 3496 50  0000 L CNN

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:SmallKat v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 8 12
 Title ""
 Date ""
 Rev ""
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BQ24770:BQ24770 U12
+L SmallKat-v2-rescue:BQ24770-BQ24770 U12
 U 1 1 5DD6E3BB
 P 5750 2550
 F 0 "U12" H 6400 2050 50  0000 C CNN
@@ -794,7 +793,7 @@ L Device:L L4
 U 1 1 5DD7595A
 P 8400 1500
 F 0 "L4" V 8590 1500 50  0000 C CNN
-F 1 "L" V 8499 1500 50  0000 C CNN
+F 1 "2.2uH" V 8499 1500 50  0000 C CNN
 F 2 "Inductor_SMD:L_Wuerth_MAPI-3020" H 8400 1500 50  0001 C CNN
 F 3 "~" H 8400 1500 50  0001 C CNN
 	1    8400 1500
@@ -1145,7 +1144,7 @@ F 3 "" H 9700 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:Si7141DP Q12
+L SmallKat-v2-rescue:Si7141DP-Transistor_FET Q12
 U 1 1 5DDBB55A
 P 10250 1600
 F 0 "Q12" V 10593 1600 50  0000 C CNN

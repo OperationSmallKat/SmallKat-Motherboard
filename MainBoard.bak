@@ -1,0 +1,538 @@
+EESchema Schematic File Version 4
+LIBS:SmallKat v2-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 9550 700  1450 1400
+U 5DAAD545
+F0 "3.3v Switchmode" 50
+F1 "3.sch" 50
+F2 "EN" I L 9550 1400 50 
+$EndSheet
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5DAC1FC2
+P 5000 6700
+AR Path="/5DAC1FC2" Ref="H?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FC2" Ref="H3"  Part="1" 
+F 0 "H3" H 5100 6749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5100 6658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 5000 6700 50  0001 C CNN
+F 3 "~" H 5000 6700 50  0001 C CNN
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5DAC1FC8
+P 4700 6700
+AR Path="/5DAC1FC8" Ref="H?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FC8" Ref="H1"  Part="1" 
+F 0 "H1" H 4800 6749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4800 6658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 4700 6700 50  0001 C CNN
+F 3 "~" H 4700 6700 50  0001 C CNN
+	1    4700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR?
+U 1 1 5DAC1FCE
+P 4700 6800
+AR Path="/5DAC1FCE" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FCE" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 4700 6650 50  0001 C CNN
+F 1 "+6V" H 4715 6973 50  0000 C CNN
+F 2 "" H 4700 6800 50  0001 C CNN
+F 3 "" H 4700 6800 50  0001 C CNN
+	1    4700 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5DAC1FD4
+P 5000 7200
+AR Path="/5DAC1FD4" Ref="H?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FD4" Ref="H4"  Part="1" 
+F 0 "H4" H 5100 7249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5100 7158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 5000 7200 50  0001 C CNN
+F 3 "~" H 5000 7200 50  0001 C CNN
+	1    5000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 5DAC1FDA
+P 4700 7200
+AR Path="/5DAC1FDA" Ref="H?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FDA" Ref="H2"  Part="1" 
+F 0 "H2" H 4800 7249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4800 7158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 4700 7200 50  0001 C CNN
+F 3 "~" H 4700 7200 50  0001 C CNN
+	1    4700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR?
+U 1 1 5DAC1FE0
+P 4700 7300
+AR Path="/5DAC1FE0" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FE0" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 4700 7150 50  0001 C CNN
+F 1 "+6V" H 4715 7473 50  0000 C CNN
+F 2 "" H 4700 7300 50  0001 C CNN
+F 3 "" H 4700 7300 50  0001 C CNN
+	1    4700 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+6V #PWR?
+U 1 1 5DAC1FE6
+P 5000 7300
+AR Path="/5DAC1FE6" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAC1FE6" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 5000 7150 50  0001 C CNN
+F 1 "+6V" H 5015 7473 50  0000 C CNN
+F 2 "" H 5000 7300 50  0001 C CNN
+F 3 "" H 5000 7300 50  0001 C CNN
+	1    5000 7300
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 7950 4550 900  950 
+U 5DAC4399
+F0 "BNO055" 50
+F1 "BNO055.sch" 50
+F2 "SDA" I L 7950 4900 50 
+F3 "SCL" I L 7950 5100 50 
+$EndSheet
+$Sheet
+S 7250 650  1750 1550
+U 5DAC8B3A
+F0 "6vSwitchMode" 50
+F1 "6vSwitchMode.sch" 50
+F2 "EN" I L 7250 1400 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5DAE34F2
+P 1000 7000
+AR Path="/5DAE34F2" Ref="J?"  Part="1" 
+AR Path="/5DAA9390/5DAE34F2" Ref="J9"  Part="1" 
+F 0 "J9" V 1060 7040 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 1151 7040 50  0000 L CNN
+F 2 "SmallKat ESP32:SHDR2W320P716_1X2_1574X813X1588P" H 1000 7000 50  0001 C CNN
+F 3 "~" H 1000 7000 50  0001 C CNN
+	1    1000 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DAE34F8
+P 900 7200
+AR Path="/5DAE34F8" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAE34F8" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 900 7050 50  0001 C CNN
+F 1 "+BATT" H 915 7373 50  0000 C CNN
+F 2 "" H 900 7200 50  0001 C CNN
+F 3 "" H 900 7200 50  0001 C CNN
+	1    900  7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAE34FE
+P 1000 7200
+AR Path="/5DAE34FE" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAE34FE" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 1000 6950 50  0001 C CNN
+F 1 "GND" H 1005 7027 50  0000 C CNN
+F 2 "" H 1000 7200 50  0001 C CNN
+F 3 "" H 1000 7200 50  0001 C CNN
+	1    1000 7200
+	1    0    0    -1  
+$EndComp
+Text Label 1700 2800 2    50   ~ 0
+SDA
+Wire Wire Line
+	1700 2800 1850 2800
+Text Label 1700 2950 2    50   ~ 0
+SCL
+Wire Wire Line
+	1700 2950 1850 2950
+Text Label 7800 5100 2    50   ~ 0
+SCL
+Wire Wire Line
+	7800 5100 7950 5100
+Text Label 7800 4900 2    50   ~ 0
+SDA
+Wire Wire Line
+	7800 4900 7950 4900
+$Sheet
+S 1850 800  1600 2600
+U 5DAAB924
+F0 "ESP32Module" 50
+F1 "ESP32Module.sch" 50
+F2 "IO2" I L 1850 850 50 
+F3 "IO4" I L 1850 950 50 
+F4 "IO5" I L 1850 1050 50 
+F5 "IO13" I L 1850 1250 50 
+F6 "IO16" I L 1850 1550 50 
+F7 "IO17" I L 1850 1650 50 
+F8 "IO18" I L 1850 1750 50 
+F9 "IO19" I L 1850 1850 50 
+F10 "IO25" I L 1850 2050 50 
+F11 "IO26" I L 1850 2150 50 
+F12 "IO27" I L 1850 2250 50 
+F13 "IO32" I L 1850 2350 50 
+F14 "IO33" I L 1850 2450 50 
+F15 "IO34" I L 1850 2550 50 
+F16 "ADC1" I L 1850 2650 50 
+F17 "SDA" I L 1850 2800 50 
+F18 "SCL" I L 1850 2950 50 
+F19 "IO14" I L 1850 1350 50 
+F20 "IO15" I L 1850 1450 50 
+F21 "IO12" I L 1850 1150 50 
+F22 "IO23" I L 1850 1950 50 
+F23 "CC1" I L 1850 3100 50 
+F24 "CC2" I L 1850 3200 50 
+$EndSheet
+Text Label 1850 1050 2    50   ~ 0
+SERVO14
+Text Label 1850 1750 2    50   ~ 0
+SERVO15
+Text Label 1850 950  2    50   ~ 0
+SERVO11
+Text Label 1850 1650 2    50   ~ 0
+SERVO13
+$Comp
+L Device:R R6
+U 1 1 5DB7B900
+P 1850 7050
+F 0 "R6" H 1920 7096 50  0000 L CNN
+F 1 "120K" H 1920 7005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1780 7050 50  0001 C CNN
+F 3 "~" H 1850 7050 50  0001 C CNN
+	1    1850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5DB7BB9D
+P 1850 6900
+AR Path="/5DB7BB9D" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DB7BB9D" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 1850 6750 50  0001 C CNN
+F 1 "+BATT" H 1865 7073 50  0000 C CNN
+F 2 "" H 1850 6900 50  0001 C CNN
+F 3 "" H 1850 6900 50  0001 C CNN
+	1    1850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5DB7CC7E
+P 1850 7350
+F 0 "D2" V 1889 7233 50  0000 R CNN
+F 1 "LED" V 1798 7233 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1850 7350 50  0001 C CNN
+F 3 "~" H 1850 7350 50  0001 C CNN
+	1    1850 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7D78A
+P 1850 7500
+AR Path="/5DB7D78A" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DB7D78A" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 1850 7250 50  0001 C CNN
+F 1 "GND" H 1855 7327 50  0000 C CNN
+F 2 "" H 1850 7500 50  0001 C CNN
+F 3 "" H 1850 7500 50  0001 C CNN
+	1    1850 7500
+	1    0    0    -1  
+$EndComp
+Text Label 1850 850  2    50   ~ 0
+SERVO10
+Text Label 1250 1250 2    50   ~ 0
+SERVO8
+Text Label 1850 1150 2    50   ~ 0
+SERVO0
+Text Label 1850 1350 2    50   ~ 0
+SERVO1
+Text Label 1850 2250 2    50   ~ 0
+SERVO2
+Text Label 1850 2150 2    50   ~ 0
+SERVO3
+Text Label 1850 2050 2    50   ~ 0
+SERVO4
+Text Label 1850 2450 2    50   ~ 0
+SERVO5
+Text Label 1850 2350 2    50   ~ 0
+SERVO6
+Text Label 1850 1450 2    50   ~ 0
+SERVO9
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DABC359
+P 4450 1050
+F 0 "TP2" H 4508 1168 50  0000 L CNN
+F 1 "TestPoint" H 4508 1077 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4650 1050 50  0001 C CNN
+F 3 "~" H 4650 1050 50  0001 C CNN
+	1    4450 1050
+	1    0    0    -1  
+$EndComp
+Text Label 4450 1050 3    50   ~ 0
+SDA
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DABC60E
+P 5000 1050
+F 0 "TP3" H 5058 1168 50  0000 L CNN
+F 1 "TestPoint" H 5058 1077 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5200 1050 50  0001 C CNN
+F 3 "~" H 5200 1050 50  0001 C CNN
+	1    5000 1050
+	1    0    0    -1  
+$EndComp
+Text Label 5000 1050 3    50   ~ 0
+SCL
+Text Label 1850 1850 2    50   ~ 0
+SERVO7
+Text Label 1850 1550 2    50   ~ 0
+SERVO12
+$Comp
+L Device:R R1
+U 1 1 5DC49A01
+P 1200 2250
+F 0 "R1" V 993 2250 50  0000 C CNN
+F 1 "330R" V 1084 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1130 2250 50  0001 C CNN
+F 3 "~" H 1200 2250 50  0001 C CNN
+	1    1200 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1950 1350 2250
+$Comp
+L Device:LED D1
+U 1 1 5DC4B467
+P 900 2250
+F 0 "D1" H 893 2466 50  0000 C CNN
+F 1 "LED" H 893 2375 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 900 2250 50  0001 C CNN
+F 3 "~" H 900 2250 50  0001 C CNN
+	1    900  2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 5DC4C0AF
+P 750 2250
+F 0 "#PWR0130" H 750 2000 50  0001 C CNN
+F 1 "GND" V 755 2122 50  0000 R CNN
+F 2 "" H 750 2250 50  0001 C CNN
+F 3 "" H 750 2250 50  0001 C CNN
+	1    750  2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 2250 1350 2550
+Wire Wire Line
+	1350 2550 1100 2550
+Connection ~ 1350 2250
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DC5219B
+P 1100 2550
+F 0 "TP1" V 1295 2622 50  0000 C CNN
+F 1 "TestPoint" V 1204 2622 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1300 2550 50  0001 C CNN
+F 3 "~" H 1300 2550 50  0001 C CNN
+	1    1100 2550
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 7250 2450 1650 1650
+U 5DD4AF66
+F0 "SafetyMCU" 50
+F1 "SafetyMCU.sch" 50
+F2 "6VEN" I L 7250 2800 50 
+F3 "3.3VEN" I L 7250 2950 50 
+F4 "SCL" I L 7250 3100 50 
+F5 "SDA" I L 7250 3200 50 
+$EndSheet
+$Sheet
+S 9800 4650 1100 550 
+U 5DD4BD78
+F0 "USBPD" 50
+F1 "USBPD.sch" 50
+F2 "CC1" I L 9800 4750 50 
+F3 "CC2" I L 9800 4850 50 
+F4 "SCL" I L 9800 4950 50 
+F5 "SDA" I L 9800 5050 50 
+$EndSheet
+$Sheet
+S 9800 5450 1100 650 
+U 5DD4BDB9
+F0 "Sheet5DD4BDB8" 50
+F1 "BatteryCharging.sch" 50
+F2 "SDA" I L 9800 5600 50 
+F3 "SCL" I L 9800 5700 50 
+$EndSheet
+$Sheet
+S 9750 2500 1200 1700
+U 5DD5998B
+F0 "Servos" 50
+F1 "Servos.sch" 50
+F2 "SDA" I R 10950 2650 50 
+F3 "SCL" I R 10950 2800 50 
+F4 "SERVO1" I L 9750 2600 50 
+F5 "SERVO2" I L 9750 2700 50 
+F6 "SERVO3" I L 9750 2800 50 
+F7 "SERVO4" I L 9750 2900 50 
+F8 "SERVO5" I L 9750 3000 50 
+F9 "SERVO6" I L 9750 3100 50 
+F10 "SERVO7" I L 9750 3200 50 
+F11 "SERVO8" I L 9750 3300 50 
+F12 "SERVO9" I L 9750 3400 50 
+F13 "SERVO10" I L 9750 3500 50 
+F14 "SERVO11" I L 9750 3600 50 
+F15 "SERVO12" I L 9750 3700 50 
+F16 "SERVO13" I L 9750 3800 50 
+F17 "SERVO14" I L 9750 3900 50 
+F18 "SERVO15" I L 9750 4000 50 
+F19 "SERVO16" I L 9750 4100 50 
+$EndSheet
+Text Label 7250 3100 2    50   ~ 0
+SAFETYSCL
+Text Label 7250 3200 2    50   ~ 0
+SAFETYSDA
+Text Label 9800 4950 2    50   ~ 0
+SAFETYSCL
+Text Label 9800 5050 2    50   ~ 0
+SAFETYSDA
+Text Label 9800 4850 2    50   ~ 0
+CC2
+Text Label 9800 4750 2    50   ~ 0
+CC1
+Text Label 1850 3200 2    50   ~ 0
+CC2
+Text Label 1850 3100 2    50   ~ 0
+CC1
+$Comp
+L power:+BATT #PWR0128
+U 1 1 5DD61AB9
+P 5000 6800
+F 0 "#PWR0128" H 5000 6650 50  0001 C CNN
+F 1 "+BATT" H 5015 6973 50  0000 C CNN
+F 2 "" H 5000 6800 50  0001 C CNN
+F 3 "" H 5000 6800 50  0001 C CNN
+	1    5000 6800
+	-1   0    0    1   
+$EndComp
+Text Label 9800 5700 2    50   ~ 0
+SAFETYSCL
+Text Label 9800 5600 2    50   ~ 0
+SAFETYSDA
+Text Label 10950 2650 0    50   ~ 0
+_SDA
+Text Label 10950 2800 0    50   ~ 0
+_SCL
+Text Label 9750 2600 2    50   ~ 0
+SERVO0
+Text Label 9750 2700 2    50   ~ 0
+SERVO1
+Text Label 9750 2800 2    50   ~ 0
+SERVO2
+Text Label 9750 2900 2    50   ~ 0
+SERVO3
+Text Label 9750 3000 2    50   ~ 0
+SERVO4
+Text Label 9750 3100 2    50   ~ 0
+SERVO5
+Text Label 9750 3200 2    50   ~ 0
+SERVO6
+Text Label 9750 3300 2    50   ~ 0
+SERVO7
+Text Label 9750 3400 2    50   ~ 0
+SERVO8
+Text Label 9750 3500 2    50   ~ 0
+SERVO9
+Text Label 9750 3600 2    50   ~ 0
+SERVO10
+Text Label 9750 3700 2    50   ~ 0
+SERVO11
+Text Label 9750 3800 2    50   ~ 0
+SERVO12
+Text Label 9750 3900 2    50   ~ 0
+SERVO13
+Text Label 9750 4000 2    50   ~ 0
+SERVO14
+Text Label 9750 4100 2    50   ~ 0
+SERVO15
+Text Label 7250 2800 2    50   ~ 0
+6VEN
+Text Label 7250 2950 2    50   ~ 0
+3.3VEN
+Text Label 7250 1400 2    50   ~ 0
+6VEN
+Text Label 9550 1400 2    50   ~ 0
+3.3VEN
+$Sheet
+S 6400 4450 950  950 
+U 5DD78216
+F0 "i2cArbiter" 50
+F1 "i2cArbiter.sch" 50
+F2 "SCL1" I L 6400 4550 50 
+F3 "SDA1" I L 6400 4650 50 
+F4 "SCL2" I L 6400 4800 50 
+F5 "SDA2" I L 6400 4900 50 
+F6 "SCL_SLAVE" O L 6400 5100 50 
+F7 "SDA_SLAVE" O L 6400 5200 50 
+$EndSheet
+$Sheet
+S 5850 2750 800  950 
+U 5DD78452
+F0 "BatteryBalancer" 50
+F1 "BatteryBalancer.sch" 50
+F2 "SCL" I L 5850 3100 50 
+F3 "SDA" I L 5850 3200 50 
+$EndSheet
+Text Label 6400 5200 2    50   ~ 0
+_SDA
+Text Label 6400 5100 2    50   ~ 0
+_SCL
+Text Label 6400 4800 2    50   ~ 0
+SAFETYSCL
+Text Label 6400 4900 2    50   ~ 0
+SAFETYSDA
+Text Label 6400 4650 2    50   ~ 0
+SDA
+Text Label 6400 4550 2    50   ~ 0
+SCL
+Text Label 5850 3100 2    50   ~ 0
+SAFETYSCL
+Text Label 5850 3200 2    50   ~ 0
+SAFETYSDA
+Wire Wire Line
+	1250 1250 1850 1250
+Wire Wire Line
+	1350 1950 1850 1950
+$EndSCHEMATC
