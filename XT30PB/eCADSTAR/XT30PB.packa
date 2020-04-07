@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XT30PB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-15-12:35:32)
+    (mountForm default
+        (footprintRef "XT30PB")
+        (spec "System")
+    )
+)

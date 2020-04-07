@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PAC1934T-I_JQ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "QFN65P400X400X55-17N-D")
+        (spec "System")
+    )
+)

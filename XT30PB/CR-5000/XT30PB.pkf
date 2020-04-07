@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XT30PB"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XT30PB")
+        (spec "default")
+    )
+)

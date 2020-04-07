@@ -1,0 +1,93 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "01550900M"
+   (description "LITTELFUSE - 01550900M. - BULK / ACS NANO FUSEHLDR 79M5625")
+   (family "ANA")
+   (package "0154.250DR")
+   (attribute "Datasheet Link" "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "01550900M")
+   (attribute "Mouser Part Number" "576-01550900M")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=576-01550900M")
+   (attribute "RS Part Number" "1740730")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/1740730")
+   (gate
+    (symbol "01550900M")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "01550900M"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "0154.250DR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.865 2.515)
+      (pt 4.865 2.515)
+      (pt 4.865 -2.515)
+      (pt -4.865 -2.515)
+      (pt -4.865 2.515))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.865 2.515)
+      (pt 4.865 2.515))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.865 -2.515)
+      (pt 4.865 -2.515))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -6.25363 -0.143) (pt -6.04037 -0.143)
+     )
+    )
+   )
+   (leg 1 (pt -3.185 0) (padstack 0))
+   (leg 2 (pt 3.185 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 3.81 4.24 0 0 0))
+   )
+  )
+ )
+)

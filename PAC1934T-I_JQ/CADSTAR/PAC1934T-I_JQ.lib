@@ -1,0 +1,18 @@
+.PAC1934T-I_JQ :1 ;PAC1934T-I/JQ - QUAD HIGH-SIDE CURRENT SENSOR, I2C/SMBUS, 32V WITH  ACCUMULATOR  16 UQF                                 4X4X0.5MM T/C
+QFN65P400X400X55-17N-D
+*STM PS
+*NGS
+*PLB 1="SLOW/'ALERT'" 2="VDD" 3="GND_1" 4="SM_CLK" 5="SM_DATA" 6="ADDRSEL" 7="SENSE3-" 8="SENSE3+" 9="SENSE4-" 10="SENSE4+" 11="SENSE1+" 12="SENSE1-" 13="SENSE2+" 14="SENSE2-" 15="VDD I/O" 16="'PWRDN'" 17="GND_2"
+*MXP 17
+*DFN PAC1934T-I_JQ
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (PAC1934T-I/JQ)
+~!Mouser Part Number (579-PAC1934JQ)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=579-PAC1934JQ)
+~!RS Part Number (1794011P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1794011P)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/268/PAC1932-Data-Sheet-DS20005850C-1519053.pdf)
+~!Height (0.55mm)
+~!3D_Model (PAC1934T-I_JQ)
+PAC1934T-I_JQ
+1.1!Y 2.1!P 3.1!G 4.1!I 5.1!U 6.1!I 7.1!I 8.1!I 12.1!I 11.1!I 10.1!I 9.1!I 17.1!G 16.1!I 15.1!P 14.1!I 13.1!I 

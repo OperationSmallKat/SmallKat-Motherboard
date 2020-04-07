@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 01550900M
+D LITTELFUSE - 01550900M. - BULK / ACS NANO FUSEHLDR 79M5625
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,164 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_LED:TLC5947RHB U7
+U 1 1 5E683F18
+P 5500 3600
+F 0 "U7" H 5500 5281 50  0000 C CNN
+F 1 "TLC5947RHB" H 5350 5050 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4950 5200 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc5947.pdf" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 4800 3600 0    50   Input ~ 0
+SCK
+Text HLabel 4800 3700 0    50   Input ~ 0
+MOSI
+$Comp
+L Device:R R32
+U 1 1 5E684DBF
+P 4650 3300
+F 0 "R32" V 4443 3300 50  0000 C CNN
+F 1 "3.3K" V 4534 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 3300 50  0001 C CNN
+F 3 "~" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0206
+U 1 1 5E68506E
+P 4500 3300
+F 0 "#PWR0206" H 4500 3050 50  0001 C CNN
+F 1 "GND" V 4505 3172 50  0000 R CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	0    1    1    0   
+$EndComp
+NoConn ~ 4800 3500
+NoConn ~ 4800 3800
+$Comp
+L power:GND #PWR0207
+U 1 1 5E6874A1
+P 5400 5000
+F 0 "#PWR0207" H 5400 4750 50  0001 C CNN
+F 1 "GND" H 5405 4827 50  0000 C CNN
+F 2 "" H 5400 5000 50  0001 C CNN
+F 3 "" H 5400 5000 50  0001 C CNN
+	1    5400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0208
+U 1 1 5E6875C0
+P 5600 5000
+F 0 "#PWR0208" H 5600 4750 50  0001 C CNN
+F 1 "GND" H 5605 4827 50  0000 C CNN
+F 2 "" H 5600 5000 50  0001 C CNN
+F 3 "" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 5E687ACE
+P 5850 1950
+F 0 "C38" V 5598 1950 50  0000 C CNN
+F 1 "C" V 5689 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5888 1800 50  0001 C CNN
+F 3 "~" H 5850 1950 50  0001 C CNN
+	1    5850 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0209
+U 1 1 5E687E69
+P 6000 1950
+F 0 "#PWR0209" H 6000 1700 50  0001 C CNN
+F 1 "GND" H 6005 1777 50  0000 C CNN
+F 2 "" H 6000 1950 50  0001 C CNN
+F 3 "" H 6000 1950 50  0001 C CNN
+	1    6000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2100 5700 1950
+$Comp
+L power:+3.3V #PWR0210
+U 1 1 5E68814C
+P 5700 1950
+F 0 "#PWR0210" H 5700 1800 50  0001 C CNN
+F 1 "+3.3V" H 5715 2123 50  0000 C CNN
+F 2 "" H 5700 1950 50  0001 C CNN
+F 3 "" H 5700 1950 50  0001 C CNN
+	1    5700 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 1950
+$Comp
+L power:GND #PWR0211
+U 1 1 5E6A8B47
+P 4800 3400
+F 0 "#PWR0211" H 4800 3150 50  0001 C CNN
+F 1 "GND" V 4805 3272 50  0000 R CNN
+F 2 "" H 4800 3400 50  0001 C CNN
+F 3 "" H 4800 3400 50  0001 C CNN
+	1    4800 3400
+	0    1    1    0   
+$EndComp
+Text HLabel 6200 2400 2    50   Output ~ 0
+SERVO0
+Text HLabel 6200 2500 2    50   Output ~ 0
+SERVO1
+Text HLabel 6200 2600 2    50   Output ~ 0
+SERVO2
+Text HLabel 6200 2700 2    50   Output ~ 0
+SERVO3
+Text HLabel 6200 2800 2    50   Output ~ 0
+SERVO4
+Text HLabel 6200 2900 2    50   Output ~ 0
+SERVO5
+Text HLabel 6200 3000 2    50   Output ~ 0
+SERVO6
+Text HLabel 6200 3100 2    50   Output ~ 0
+SERVO7
+Text HLabel 6200 3200 2    50   Output ~ 0
+SERVO8
+Text HLabel 6200 3300 2    50   Output ~ 0
+SERVO9
+Text HLabel 6200 3400 2    50   Output ~ 0
+SERVO10
+Text HLabel 6200 3500 2    50   Output ~ 0
+SERVO11
+Text HLabel 6200 3600 2    50   Output ~ 0
+SERVO12
+Text HLabel 6200 3700 2    50   Output ~ 0
+SERVO13
+Text HLabel 6200 3800 2    50   Output ~ 0
+SERVO14
+Text HLabel 6200 3900 2    50   Output ~ 0
+SERVO15
+Text HLabel 6200 4000 2    50   Output ~ 0
+SERVO16
+Text HLabel 6200 4100 2    50   Output ~ 0
+SERVO17
+Text HLabel 6200 4200 2    50   Output ~ 0
+SERVO18
+Text HLabel 6200 4300 2    50   Output ~ 0
+SERVO19
+$EndSCHEMATC

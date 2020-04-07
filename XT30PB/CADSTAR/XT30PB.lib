@@ -1,0 +1,18 @@
+.XT30PB :1 ;Mini XT60 XT30 Connector for RC Multirotor Racing Drone Quadcopter
+XT30PB
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN XT30PB
+~!Manufacturer_Name (Amass)
+~!Manufacturer_Part_Number (XT30PB)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf)
+~!Height (10.7mm)
+~!3D_Model (XT30PB)
+XT30PB
+1.1!U 2.1!U 

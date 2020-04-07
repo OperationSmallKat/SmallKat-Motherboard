@@ -1,0 +1,17 @@
+.01550900M :1 ;LITTELFUSE - 01550900M. - BULK / ACS NANO FUSEHLDR 79M5625
+"0154.250DR"
+*STM U
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 01550900M
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (01550900M)
+~!Mouser Part Number (576-01550900M)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=576-01550900M)
+~!RS Part Number (1740730)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1740730)
+~!Link Datasheet (http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf)
+~!Height (-)
+"01550900M"
+1.1!U 2.1!U 

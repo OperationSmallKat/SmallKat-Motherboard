@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAC1934T-I_JQ
+D PAC1934T-I/JQ - QUAD HIGH-SIDE CURRENT SENSOR, I2C/SMBUS, 32V WITH  ACCUMULATOR  16 UQF                                 4X4X0.5MM T/C
+K
+F https://www.mouser.com/datasheet/2/268/PAC1932-Data-Sheet-DS20005850C-1519053.pdf
+$ENDCMP
+#
+#End Doc Library

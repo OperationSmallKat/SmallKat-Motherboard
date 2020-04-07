@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PAC1934T_I_JQ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "PAC1934T-I/JQ" (!) = "", "QFN65P400X400X55-17N-D", "Quad Flat No-Lead", "579-PAC1934JQ", "https://www.mouser.com/Search/Refine.aspx?Keyword=579-PAC1934JQ", "1794011P", "http://uk.rs-online.com/web/p/products/1794011P", "PAC1934T-I/JQ - QUAD HIGH-SIDE CURRENT SENSOR, I2C/SMBUS, 32V WITH  ACCUMULATOR  16 UQF                                 4X4X0.5MM T/C", "https://www.mouser.com/datasheet/2/268/PAC1932-Data-Sheet-DS20005850C-1519053.pdf", "0.55 mm"
+END_PART
+
+END.

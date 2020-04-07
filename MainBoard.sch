@@ -14,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 9550 700  1450 1400
+S 7250 1150 550  300 
 U 5DAAD545
 F0 "3.3v Switchmode" 50
 F1 "3.sch" 50
-F2 "EN" I L 9550 1400 50 
+F2 "EN" I L 7250 1300 50 
 $EndSheet
 $Comp
 L Mechanical:MountingHole_Pad H?
@@ -28,7 +28,7 @@ AR Path="/5DAC1FC2" Ref="H?"  Part="1"
 AR Path="/5DAA9390/5DAC1FC2" Ref="H3"  Part="1" 
 F 0 "H3" H 5100 6749 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5100 6658 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 5000 6700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5000 6700 50  0001 C CNN
 F 3 "~" H 5000 6700 50  0001 C CNN
 	1    5000 6700
 	1    0    0    -1  
@@ -41,7 +41,7 @@ AR Path="/5DAC1FC8" Ref="H?"  Part="1"
 AR Path="/5DAA9390/5DAC1FC8" Ref="H1"  Part="1" 
 F 0 "H1" H 4800 6749 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4800 6658 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 4700 6700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4700 6700 50  0001 C CNN
 F 3 "~" H 4700 6700 50  0001 C CNN
 	1    4700 6700
 	1    0    0    -1  
@@ -67,7 +67,7 @@ AR Path="/5DAC1FD4" Ref="H?"  Part="1"
 AR Path="/5DAA9390/5DAC1FD4" Ref="H4"  Part="1" 
 F 0 "H4" H 5100 7249 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5100 7158 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 5000 7200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5000 7200 50  0001 C CNN
 F 3 "~" H 5000 7200 50  0001 C CNN
 	1    5000 7200
 	1    0    0    -1  
@@ -80,7 +80,7 @@ AR Path="/5DAC1FDA" Ref="H?"  Part="1"
 AR Path="/5DAA9390/5DAC1FDA" Ref="H2"  Part="1" 
 F 0 "H2" H 4800 7249 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4800 7158 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 4700 7200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4700 7200 50  0001 C CNN
 F 3 "~" H 4700 7200 50  0001 C CNN
 	1    4700 7200
 	1    0    0    -1  
@@ -112,12 +112,12 @@ F 3 "" H 5000 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Sheet
-S 7950 4550 900  950 
+S 7900 4300 900  950 
 U 5DAC4399
 F0 "BNO055" 50
 F1 "BNO055.sch" 50
-F2 "SDA" I L 7950 4900 50 
-F3 "SCL" I L 7950 5100 50 
+F2 "SDA" I L 7900 4650 50 
+F3 "SCL" I L 7900 4850 50 
 $EndSheet
 $Comp
 L Connector:Conn_01x02_Male J?
@@ -127,7 +127,7 @@ AR Path="/5DAE34F2" Ref="J?"  Part="1"
 AR Path="/5DAA9390/5DAE34F2" Ref="J9"  Part="1" 
 F 0 "J9" V 1060 7040 50  0000 L CNN
 F 1 "Conn_01x02_Male" V 1151 7040 50  0000 L CNN
-F 2 "SmallKat ESP32:SHDR2W320P716_1X2_1574X813X1588P" H 1000 7000 50  0001 C CNN
+F 2 "XT30PB:XT30PB" H 1000 7000 50  0001 C CNN
 F 3 "~" H 1000 7000 50  0001 C CNN
 	1    1000 7000
 	0    1    1    0   
@@ -166,14 +166,14 @@ Text Label 1700 2950 2    50   ~ 0
 SCL
 Wire Wire Line
 	1700 2950 1850 2950
-Text Label 7800 5100 2    50   ~ 0
+Text Label 7750 4850 2    50   ~ 0
 SCL
 Wire Wire Line
-	7800 5100 7950 5100
-Text Label 7800 4900 2    50   ~ 0
+	7750 4850 7900 4850
+Text Label 7750 4650 2    50   ~ 0
 SDA
 Wire Wire Line
-	7800 4900 7950 4900
+	7750 4650 7900 4650
 $Sheet
 S 1850 800  1600 2600
 U 5DAAB924
@@ -203,14 +203,6 @@ F22 "IO23" I L 1850 1950 50
 F23 "CC1" I L 1850 3100 50 
 F24 "CC2" I L 1850 3200 50 
 $EndSheet
-Text Label 1850 1050 2    50   ~ 0
-SERVO14
-Text Label 1850 1750 2    50   ~ 0
-SERVO15
-Text Label 1850 950  2    50   ~ 0
-SERVO11
-Text Label 1850 1650 2    50   ~ 0
-SERVO13
 $Comp
 L Device:R R6
 U 1 1 5DB7B900
@@ -259,26 +251,6 @@ F 3 "" H 1850 7500 50  0001 C CNN
 	1    1850 7500
 	1    0    0    -1  
 $EndComp
-Text Label 1850 850  2    50   ~ 0
-SERVO10
-Text Label 1250 1250 2    50   ~ 0
-SERVO8
-Text Label 1850 1150 2    50   ~ 0
-SERVO0
-Text Label 1850 1350 2    50   ~ 0
-SERVO1
-Text Label 1850 2250 2    50   ~ 0
-SERVO2
-Text Label 1850 2150 2    50   ~ 0
-SERVO3
-Text Label 1850 2050 2    50   ~ 0
-SERVO4
-Text Label 1850 2450 2    50   ~ 0
-SERVO5
-Text Label 1850 2350 2    50   ~ 0
-SERVO6
-Text Label 1850 1450 2    50   ~ 0
-SERVO9
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5DABC359
@@ -305,10 +277,6 @@ F 3 "~" H 5200 1050 50  0001 C CNN
 $EndComp
 Text Label 5000 1050 3    50   ~ 0
 SCL
-Text Label 1850 1850 2    50   ~ 0
-SERVO7
-Text Label 1850 1550 2    50   ~ 0
-SERVO12
 $Comp
 L Device:R R1
 U 1 1 5DC49A01
@@ -369,27 +337,34 @@ F2 "6VEN" I L 7250 2800 50
 F3 "3.3VEN" I L 7250 2950 50 
 F4 "SCL" I L 7250 3100 50 
 F5 "SDA" I L 7250 3200 50 
+F6 "NRST" I L 7250 3350 50 
+F7 "TX" I L 7250 3450 50 
+F8 "RX" I L 7250 3550 50 
+F9 "I2CTALKALLOWED" I L 7250 3650 50 
+F10 "I2CTALKING" I L 7250 3750 50 
+F11 "SCL1" I L 7250 3850 50 
+F12 "SDA1" I L 7250 3950 50 
 $EndSheet
 $Sheet
-S 9800 4650 1100 550 
+S 9800 5000 1100 550 
 U 5DD4BD78
 F0 "USBPD" 50
 F1 "USBPD.sch" 50
-F2 "CC1" I L 9800 4750 50 
-F3 "CC2" I L 9800 4850 50 
-F4 "SCL" I L 9800 4950 50 
-F5 "SDA" I L 9800 5050 50 
+F2 "CC1" I L 9800 5100 50 
+F3 "CC2" I L 9800 5200 50 
+F4 "SCL" I L 9800 5300 50 
+F5 "SDA" I L 9800 5400 50 
 $EndSheet
 $Sheet
-S 9800 5450 1100 650 
+S 9800 5800 1100 650 
 U 5DD4BDB9
 F0 "Sheet5DD4BDB8" 50
 F1 "BatteryCharging.sch" 50
-F2 "SDA" I L 9800 5600 50 
-F3 "SCL" I L 9800 5700 50 
+F2 "SDA" I L 9800 5950 50 
+F3 "SCL" I L 9800 6050 50 
 $EndSheet
 $Sheet
-S 9750 2500 1200 1700
+S 9750 2500 1200 2050
 U 5DD5998B
 F0 "Servos" 50
 F1 "Servos.sch" 50
@@ -411,18 +386,18 @@ F16 "SERVO13" I L 9750 3800 50
 F17 "SERVO14" I L 9750 3900 50 
 F18 "SERVO15" I L 9750 4000 50 
 F19 "SERVO16" I L 9750 4100 50 
+F20 "SERVO17" I L 9750 4200 50 
+F21 "SERVO18" I L 9750 4300 50 
+F22 "SERVO19" I L 9750 4400 50 
+F23 "SERVO20" I L 9750 4500 50 
 $EndSheet
-Text Label 7250 3100 2    50   ~ 0
+Text Label 9800 5300 2    50   ~ 0
 SAFETYSCL
-Text Label 7250 3200 2    50   ~ 0
+Text Label 9800 5400 2    50   ~ 0
 SAFETYSDA
-Text Label 9800 4950 2    50   ~ 0
-SAFETYSCL
-Text Label 9800 5050 2    50   ~ 0
-SAFETYSDA
-Text Label 9800 4850 2    50   ~ 0
+Text Label 9800 5200 2    50   ~ 0
 CC2
-Text Label 9800 4750 2    50   ~ 0
+Text Label 9800 5100 2    50   ~ 0
 CC1
 Text Label 1850 3200 2    50   ~ 0
 CC2
@@ -439,14 +414,12 @@ F 3 "" H 5000 6800 50  0001 C CNN
 	1    5000 6800
 	-1   0    0    1   
 $EndComp
-Text Label 9800 5700 2    50   ~ 0
+Text Label 9800 6050 2    50   ~ 0
 SAFETYSCL
-Text Label 9800 5600 2    50   ~ 0
+Text Label 9800 5950 2    50   ~ 0
 SAFETYSDA
-Text Label 10950 2650 0    50   ~ 0
-_SDA
 Text Label 10950 2800 0    50   ~ 0
-_SCL
+SCL
 Text Label 9750 2600 2    50   ~ 0
 SERVO0
 Text Label 9750 2700 2    50   ~ 0
@@ -483,55 +456,133 @@ Text Label 7250 2800 2    50   ~ 0
 6VEN
 Text Label 7250 2950 2    50   ~ 0
 3.3VEN
-Text Label 9550 1400 2    50   ~ 0
+Text Label 7250 1300 2    50   ~ 0
 3.3VEN
 $Sheet
-S 6400 4450 950  950 
-U 5DD78216
-F0 "i2cArbiter" 50
-F1 "i2cArbiter.sch" 50
-F2 "SCL1" I L 6400 4550 50 
-F3 "SDA1" I L 6400 4650 50 
-F4 "SCL2" I L 6400 4800 50 
-F5 "SDA2" I L 6400 4900 50 
-F6 "SCL_SLAVE" O L 6400 5100 50 
-F7 "SDA_SLAVE" O L 6400 5200 50 
-$EndSheet
-$Sheet
-S 5850 2750 800  950 
+S 9800 750  800  950 
 U 5DD78452
 F0 "BatteryBalancer" 50
 F1 "BatteryBalancer.sch" 50
-F2 "SCL" I L 5850 3100 50 
-F3 "SDA" I L 5850 3200 50 
+F2 "SCL" I L 9800 1100 50 
+F3 "SDA" I L 9800 1200 50 
 $EndSheet
-Text Label 6400 5200 2    50   ~ 0
-_SDA
-Text Label 6400 5100 2    50   ~ 0
-_SCL
-Text Label 6400 4800 2    50   ~ 0
-SAFETYSCL
-Text Label 6400 4900 2    50   ~ 0
-SAFETYSDA
-Text Label 6400 4650 2    50   ~ 0
+Text Label 7250 3200 2    50   ~ 0
 SDA
-Text Label 6400 4550 2    50   ~ 0
+Text Label 7250 3100 2    50   ~ 0
 SCL
-Text Label 5850 3100 2    50   ~ 0
-SAFETYSCL
-Text Label 5850 3200 2    50   ~ 0
-SAFETYSDA
-Wire Wire Line
-	1250 1250 1850 1250
-Wire Wire Line
-	1350 1950 1850 1950
 $Sheet
-S 7250 700  1750 1550
+S 7250 700  550  250 
 U 5E0C112B
 F0 "sheet5E0C1128" 50
 F1 "6vSwitchMode.sch" 50
-F2 "EN" I L 7250 1450 50 
+F2 "EN" I L 7250 800 50 
 $EndSheet
-Text Label 7250 1450 2    50   ~ 0
+Text Label 7250 800  2    50   ~ 0
 6VEN
+$Sheet
+S 3300 3750 850  2050
+U 5E683C3E
+F0 "PWMExpander" 50
+F1 "PWMExpandeR.sch" 50
+F2 "SCK" I L 3300 4000 50 
+F3 "MOSI" I L 3300 4100 50 
+F4 "SERVO0" O R 4150 3850 50 
+F5 "SERVO1" O R 4150 3950 50 
+F6 "SERVO2" O R 4150 4050 50 
+F7 "SERVO3" O R 4150 4150 50 
+F8 "SERVO4" O R 4150 4250 50 
+F9 "SERVO5" O R 4150 4350 50 
+F10 "SERVO6" O R 4150 4450 50 
+F11 "SERVO7" O R 4150 4550 50 
+F12 "SERVO8" O R 4150 4650 50 
+F13 "SERVO9" O R 4150 4750 50 
+F14 "SERVO10" O R 4150 4850 50 
+F15 "SERVO11" O R 4150 4950 50 
+F16 "SERVO12" O R 4150 5050 50 
+F17 "SERVO13" O R 4150 5150 50 
+F18 "SERVO14" O R 4150 5250 50 
+F19 "SERVO15" O R 4150 5350 50 
+F20 "SERVO16" O R 4150 5450 50 
+F21 "SERVO17" O R 4150 5550 50 
+F22 "SERVO18" O R 4150 5650 50 
+F23 "SERVO19" O R 4150 5750 50 
+$EndSheet
+Text Label 4150 3850 0    50   ~ 0
+SERVO0
+Text Label 4150 3950 0    50   ~ 0
+SERVO1
+Text Label 4150 4050 0    50   ~ 0
+SERVO2
+Text Label 4150 4150 0    50   ~ 0
+SERVO3
+Text Label 4150 4250 0    50   ~ 0
+SERVO4
+Text Label 4150 4350 0    50   ~ 0
+SERVO5
+Text Label 4150 4450 0    50   ~ 0
+SERVO6
+Text Label 4150 4550 0    50   ~ 0
+SERVO7
+Text Label 4150 4650 0    50   ~ 0
+SERVO8
+Text Label 4150 4750 0    50   ~ 0
+SERVO9
+Text Label 4150 4850 0    50   ~ 0
+SERVO10
+Text Label 4150 4950 0    50   ~ 0
+SERVO11
+Text Label 4150 5050 0    50   ~ 0
+SERVO12
+Text Label 4150 5150 0    50   ~ 0
+SERVO13
+Text Label 4150 5250 0    50   ~ 0
+SERVO14
+Text Label 4150 5350 0    50   ~ 0
+SERVO15
+Text Label 4150 5450 0    50   ~ 0
+SERVO16
+Text Label 4150 5550 0    50   ~ 0
+SERVO17
+Text Label 4150 5650 0    50   ~ 0
+SERVO18
+Text Label 4150 5750 0    50   ~ 0
+SERVO19
+Wire Wire Line
+	1850 1950 1350 1950
+Text Label 7250 3350 2    50   ~ 0
+NRST
+Text Label 7250 3450 2    50   ~ 0
+TX1
+Text Label 7250 3550 2    50   ~ 0
+RX1
+Text Label 1850 2250 2    50   ~ 0
+TX1
+Text Label 1850 1350 2    50   ~ 0
+RX1
+Text Label 1850 1150 2    50   ~ 0
+NRST
+Text Label 9800 1200 2    50   ~ 0
+SAFETYSDA
+Text Label 9800 1100 2    50   ~ 0
+SAFETYSCL
+Text Label 7250 3950 2    50   ~ 0
+SAFETYSDA
+Text Label 7250 3850 2    50   ~ 0
+SAFETYSCL
+Text Label 7250 3650 2    50   ~ 0
+TALKALLOWED
+Text Label 7250 3750 2    50   ~ 0
+TALKING
+Text Label 1850 1250 2    50   ~ 0
+TALKALLOWED
+Text Label 10950 2650 0    50   ~ 0
+SDA
+Text Label 9750 4200 2    50   ~ 0
+SERVO16
+Text Label 9750 4300 2    50   ~ 0
+SERVO17
+Text Label 9750 4400 2    50   ~ 0
+SERVO18
+Text Label 9750 4500 2    50   ~ 0
+SERVO19
 $EndSCHEMATC

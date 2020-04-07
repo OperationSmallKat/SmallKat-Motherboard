@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=PAC1934T-I/JQ
+PartCategory=Power Supply
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=1.1
+Released=2019-07-01 09:07:22
+Downloaded=2020-03-18 19:37:59
+3D=Y

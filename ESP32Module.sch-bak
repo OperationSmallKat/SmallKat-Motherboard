@@ -201,34 +201,6 @@ F 3 "" H 7450 3850 50  0001 C CNN
 	1    7450 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:MMBT3904 Q4
-U 1 1 5DAFB01E
-P 10100 4150
-AR Path="/5DAA9390/5DAAB924/5DAFB01E" Ref="Q4"  Part="1" 
-AR Path="/5DAA9E7A/5DB7E2D8/5DAFB01E" Ref="Q6"  Part="1" 
-AR Path="/5DB7E2D8/5DAFB01E" Ref="Q4"  Part="1" 
-F 0 "Q4" H 10291 4104 50  0000 L CNN
-F 1 "MMBT3904" H 10291 4195 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 4075 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10100 4150 50  0001 L CNN
-	1    10100 4150
-	1    0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:MMBT3904 Q3
-U 1 1 5DAFD0BE
-P 10100 3400
-AR Path="/5DAA9390/5DAAB924/5DAFD0BE" Ref="Q3"  Part="1" 
-AR Path="/5DAA9E7A/5DB7E2D8/5DAFD0BE" Ref="Q5"  Part="1" 
-AR Path="/5DB7E2D8/5DAFD0BE" Ref="Q3"  Part="1" 
-F 0 "Q3" H 10291 3446 50  0000 L CNN
-F 1 "MMBT3904" H 10291 3355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 3325 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10100 3400 50  0001 L CNN
-	1    10100 3400
-	1    0    0    -1  
-$EndComp
 Text Label 10200 3950 0    50   ~ 0
 DTR
 Text Label 9600 3400 2    50   ~ 0
@@ -801,7 +773,7 @@ AR Path="/5DAA9390/5DAAB924/5DBC0E27" Ref="J19"  Part="1"
 AR Path="/5DB7E2D8/5DBC0E27" Ref="J19"  Part="1" 
 F 0 "J19" V 4353 8380 50  0000 L CNN
 F 1 "USB_C_Receptacle" V 4262 8380 50  0000 L CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 4350 7250 50  0001 C CNN
+F 2 "C167321:C167321" H 4350 7250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4350 7250 50  0001 C CNN
 	1    4200 7250
 	0    -1   -1   0   
@@ -901,6 +873,28 @@ F 1 "VBUS" H 3215 6573 50  0000 C CNN
 F 2 "" H 3200 6400 50  0001 C CNN
 F 3 "" H 3200 6400 50  0001 C CNN
 	1    3200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MBT3904DW1 Q3
+U 1 1 5E7A985B
+P 10100 3400
+F 0 "Q3" H 10290 3446 50  0000 L CNN
+F 1 "MBT3904DW1" H 10290 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 10300 3500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF" H 10100 3400 50  0001 C CNN
+	1    10100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:MBT3904DW1 Q3
+U 2 1 5E7AB9F4
+P 10100 4150
+F 0 "Q3" H 10290 4196 50  0000 L CNN
+F 1 "MBT3904DW1" H 10290 4105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 10300 4250 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF" H 10100 4150 50  0001 C CNN
+	2    10100 4150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
