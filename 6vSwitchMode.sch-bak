@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -827,7 +827,7 @@ F 3 "~" H 8650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SmallKat-v2-rescue:TPS40192DRCT-TPS40192DRCT IC8
+L SmallKat-v2-rescue:TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue IC8
 U 1 1 5E883273
 P 5100 2900
 F 0 "IC8" H 5700 3165 50  0000 C CNN
@@ -845,6 +845,28 @@ F 11 "http://uk.rs-online.com/web/p/products/0404364P" H 6150 2100 50  0001 L CN
 	1    5100 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 4500 2900 0    50   Input ~ 0
+Text HLabel 4300 2600 1    50   Input ~ 0
 EN
+$Comp
+L Transistor_FET:DMG2301L Q5
+U 1 1 5F65AE85
+P 4300 2800
+F 0 "Q5" V 4549 2800 50  0000 C CNN
+F 1 "DMG2301L" V 4640 2800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 2725 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 4300 2800 50  0001 L CNN
+	1    4300 2800
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR0104
+U 1 1 5F661942
+P 4100 2900
+F 0 "#PWR0104" H 4100 2750 50  0001 C CNN
+F 1 "+BATT" V 4115 3027 50  0000 L CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

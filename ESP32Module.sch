@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -533,8 +533,6 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_
 	1    2650 2600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2050 1600
-NoConn ~ 2050 1700
 Wire Wire Line
 	3250 1400 3450 1400
 Text Label 3450 1400 0    50   ~ 0
@@ -543,21 +541,7 @@ Text Label 8000 2450 0    50   ~ 0
 RTS
 Wire Wire Line
 	8000 2550 8100 2550
-$Comp
-L Device:R R24
-U 1 1 5DB25907
-P 8250 2550
-AR Path="/5DAA9390/5DAAB924/5DB25907" Ref="R24"  Part="1" 
-AR Path="/5DAA9E7A/5DB7E2D8/5DB25907" Ref="R39"  Part="1" 
-AR Path="/5DB7E2D8/5DB25907" Ref="R24"  Part="1" 
-F 0 "R24" V 8350 2650 50  0000 C CNN
-F 1 "470R" V 8350 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8180 2550 50  0001 C CNN
-F 3 "~" H 8250 2550 50  0001 C CNN
-	1    8250 2550
-	0    1    1    0   
-$EndComp
-Text Label 8400 2550 0    50   ~ 0
+Text Label 8100 2550 0    50   ~ 0
 TXD
 Text Label 8000 2650 0    50   ~ 0
 RXD
@@ -614,7 +598,7 @@ IO33
 Text HLabel 3250 3600 2    50   Input ~ 0
 IO34
 Text HLabel 3250 3700 2    50   Input ~ 0
-ADC1
+IO35
 Text HLabel 3250 2800 2    50   Input ~ 0
 SDA
 Text HLabel 3250 2900 2    50   Input ~ 0
@@ -762,22 +746,6 @@ NoConn ~ 4600 6650
 NoConn ~ 4800 6650
 NoConn ~ 4900 6650
 NoConn ~ 5100 6650
-Connection ~ 4000 6650
-Connection ~ 3800 6650
-$Comp
-L Connector:USB_C_Receptacle J20
-U 1 1 5DBC0E27
-P 4200 7250
-AR Path="/5DAA9E7A/5DB7E2D8/5DBC0E27" Ref="J20"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5DBC0E27" Ref="J19"  Part="1" 
-AR Path="/5DB7E2D8/5DBC0E27" Ref="J19"  Part="1" 
-F 0 "J19" V 4353 8380 50  0000 L CNN
-F 1 "USB_C_Receptacle" V 4262 8380 50  0000 L CNN
-F 2 "C167321:C167321" H 4350 7250 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4350 7250 50  0001 C CNN
-	1    4200 7250
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 5200 6650
 NoConn ~ 5400 6650
 NoConn ~ 5500 6650
@@ -845,10 +813,6 @@ Text HLabel 7450 5100 1    50   Input ~ 0
 SDA
 Text HLabel 7200 5100 1    50   Input ~ 0
 SCL
-Text HLabel 3400 6650 1    50   Input ~ 0
-CC1
-Text HLabel 3500 6650 1    50   Input ~ 0
-CC2
 $Comp
 L power:+3.3V #PWR0168
 U 1 1 5DDDAE64
@@ -897,4 +861,24 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF" H 10100 4150 
 	2    10100 4150
 	1    0    0    -1  
 $EndComp
+Connection ~ 3800 6650
+Connection ~ 4000 6650
+$Comp
+L Connector:USB_C_Receptacle J20
+U 1 1 5DBC0E27
+P 4200 7250
+AR Path="/5DAA9E7A/5DB7E2D8/5DBC0E27" Ref="J20"  Part="1" 
+AR Path="/5DAA9390/5DAAB924/5DBC0E27" Ref="J19"  Part="1" 
+AR Path="/5DB7E2D8/5DBC0E27" Ref="J19"  Part="1" 
+F 0 "J19" V 4353 8380 50  0000 L CNN
+F 1 "USB_C_Receptacle" V 4262 8380 50  0000 L CNN
+F 2 "C167321:C167321" H 4350 7250 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4350 7250 50  0001 C CNN
+	1    4200 7250
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2050 1600 0    50   Input ~ 0
+IO36
+Text HLabel 2050 1700 0    50   Input ~ 0
+IO39
 $EndSCHEMATC

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SmallKat-v2-rescue:bq76925-bq76925 U13
+L SmallKat-v2-rescue:bq76925-bq76925-SmallKat-v2-rescue U13
 U 1 1 5DD78636
 P 5000 3450
 AR Path="/5DD78636" Ref="U13"  Part="1" 
