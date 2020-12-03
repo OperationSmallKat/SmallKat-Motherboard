@@ -864,12 +864,13 @@ $EndComp
 Connection ~ 3800 6650
 Connection ~ 4000 6650
 $Comp
-L Connector:USB_C_Receptacle J20
+L SmallKat-v2-rescue:USB_C_Receptacle-Connector J20
 U 1 1 5DBC0E27
 P 4200 7250
 AR Path="/5DAA9E7A/5DB7E2D8/5DBC0E27" Ref="J20"  Part="1" 
 AR Path="/5DAA9390/5DAAB924/5DBC0E27" Ref="J19"  Part="1" 
 AR Path="/5DB7E2D8/5DBC0E27" Ref="J19"  Part="1" 
+AR Path="/5DBC0E27" Ref="J19"  Part="1" 
 F 0 "J19" V 4353 8380 50  0000 L CNN
 F 1 "USB_C_Receptacle" V 4262 8380 50  0000 L CNN
 F 2 "C167321:C167321" H 4350 7250 50  0001 C CNN

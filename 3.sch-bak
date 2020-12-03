@@ -176,7 +176,7 @@ F 3 "" H 3950 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue IC?
+L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC?
 U 1 1 5DAB2074
 P 2550 1050
 AR Path="/5DAB2074" Ref="IC?"  Part="1" 
@@ -320,14 +320,14 @@ Connection ~ 1200 1450
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DAB20BF
-P 1350 1150
+P 950 1150
 AR Path="/5DAB20BF" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB20BF" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 1350 1000 50  0001 C CNN
-F 1 "+3.3V" V 1365 1278 50  0000 L CNN
-F 2 "" H 1350 1150 50  0001 C CNN
-F 3 "" H 1350 1150 50  0001 C CNN
-	1    1350 1150
+F 0 "#PWR0136" H 950 1000 50  0001 C CNN
+F 1 "+3.3V" V 965 1278 50  0000 L CNN
+F 2 "" H 950 1150 50  0001 C CNN
+F 3 "" H 950 1150 50  0001 C CNN
+	1    950  1150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -463,7 +463,7 @@ F 3 "" H 3950 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue IC?
+L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC?
 U 1 1 5FB8C063
 P 2550 2750
 AR Path="/5FB8C063" Ref="IC?"  Part="1" 
@@ -615,15 +615,15 @@ Connection ~ 1200 3150
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FB8C0A7
-P 1350 2850
+P 950 2850
 AR Path="/5FB8C0A7" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5FB8C0A7" Ref="#PWR0153"  Part="1" 
 AR Path="/5DAA9390/5DAAB924/5FB8C0A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 1350 2700 50  0001 C CNN
-F 1 "+3.3V" V 1365 2978 50  0000 L CNN
-F 2 "" H 1350 2850 50  0001 C CNN
-F 3 "" H 1350 2850 50  0001 C CNN
-	1    1350 2850
+F 0 "#PWR0153" H 950 2700 50  0001 C CNN
+F 1 "+3.3V" V 965 2978 50  0000 L CNN
+F 2 "" H 950 2850 50  0001 C CNN
+F 3 "" H 950 2850 50  0001 C CNN
+	1    950  2850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -670,4 +670,26 @@ F 3 "" H 1200 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1200 3450
+$Comp
+L pspice:DIODE D5
+U 1 1 5FC888B1
+P 1150 1150
+F 0 "D5" H 1150 885 50  0000 C CNN
+F 1 "DIODE" H 1150 976 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 1150 1150 50  0001 C CNN
+F 3 "~" H 1150 1150 50  0001 C CNN
+	1    1150 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pspice:DIODE D6
+U 1 1 5FC895A5
+P 1150 2850
+F 0 "D6" H 1150 2585 50  0000 C CNN
+F 1 "DIODE" H 1150 2676 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 1150 2850 50  0001 C CNN
+F 3 "~" H 1150 2850 50  0001 C CNN
+	1    1150 2850
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
