@@ -24,6 +24,32 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_01x04_Female
+#
+DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x10_Female
 #
 DEF Connector_Conn_01x10_Female J 0 40 Y N 1 F N
@@ -415,11 +441,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SmallKat-v2-rescue_BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue
+# SmallKat-v2-rescue_BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue
 #
-DEF SmallKat-v2-rescue_BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue U 0 20 Y Y 1 F N
+DEF SmallKat-v2-rescue_BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue U 0 20 Y Y 1 F N
 F0 "U" -450 650 50 H V R CNN
-F1 "SmallKat-v2-rescue_BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue" 500 650 50 H V R CNN
+F1 "SmallKat-v2-rescue_BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue" 500 650 50 H V R CNN
 F2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" 250 -650 50 H I L CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -458,11 +484,11 @@ X CAP 9 600 -500 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SmallKat-v2-rescue_TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue
+# SmallKat-v2-rescue_TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue
 #
-DEF SmallKat-v2-rescue_TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC 0 30 Y Y 1 F N
+DEF SmallKat-v2-rescue_TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 1050 300 50 H V L CNN
-F1 "SmallKat-v2-rescue_TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue" 1050 200 50 H V L CNN
+F1 "SmallKat-v2-rescue_TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue" 1050 200 50 H V L CNN
 F2 "SON50P300X300X100-11N" 1050 100 50 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/tps40192.pdf" 1050 0 50 H I L CNN
 F4 "4.5V to 18V Input, 20A Synchronous Buck Controller with Power Good, 600kHz" 1050 -100 50 H I L CNN "Description"
@@ -489,11 +515,11 @@ X SW 9 1200 -100 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# SmallKat-v2-rescue_TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue
+# SmallKat-v2-rescue_TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue
 #
-DEF SmallKat-v2-rescue_TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC 0 30 Y Y 1 F N
+DEF SmallKat-v2-rescue_TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC 0 30 Y Y 1 F N
 F0 "IC" 950 300 50 H V L CNN
-F1 "SmallKat-v2-rescue_TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue" 950 200 50 H V L CNN
+F1 "SmallKat-v2-rescue_TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue" 950 200 50 H V L CNN
 F2 "SOT95P280X110-6N" 950 100 50 H I L CNN
 F3 "http://www.ti.com/lit/gpn/tps562201" 950 0 50 H I L CNN
 F4 "4.5V to 17V Input, 2A Output, Synchronous Step-Down Converter" 950 -100 50 H I L CNN "Description"
@@ -513,11 +539,11 @@ X VBST 6 1100 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# SmallKat-v2-rescue_USB_C_Receptacle-Connector-SmallKat-v2-rescue
+# SmallKat-v2-rescue_USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue
 #
-DEF SmallKat-v2-rescue_USB_C_Receptacle-Connector-SmallKat-v2-rescue J 0 40 Y Y 1 F N
+DEF SmallKat-v2-rescue_USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue J 0 40 Y Y 1 F N
 F0 "J" -400 1150 50 H V L CNN
-F1 "SmallKat-v2-rescue_USB_C_Receptacle-Connector-SmallKat-v2-rescue" 400 1150 50 H V R CNN
+F1 "SmallKat-v2-rescue_USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue" 400 1150 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -661,38 +687,6 @@ X S 2 100 -200 100 U 50 50 1 1 P N
 X S 3 100 -200 100 U 50 50 1 1 P N
 X G 4 -200 0 100 R 50 50 1 1 P
 X D 5 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Transistor_FET_DMG2301L
-#
-DEF Transistor_FET_DMG2301L Q 0 20 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_DMG2301L" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS VP0610T BSS84 NTR2101P BSS83P Si2319CDS IRLML6401 IRLML6402 DMG2301L AO3401A IRLML9301 IRLML5203 Si2371EDS TSM2301ACX FDN340P
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 65 0 110 0 1 10 N
-C 100 -70 10 0 1 0 F
-C 100 70 10 0 1 0 F
-P 2 0 1 0 10 0 -100 0 N
-P 2 0 1 10 10 75 10 -75 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 0 100 -100 100 0 30 0 N
-P 4 0 1 0 30 70 130 70 130 -70 30 -70 N
-P 4 0 1 0 90 0 50 15 50 -15 90 0 F
-P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
-P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
-X G 1 -200 0 100 R 50 50 1 1 I
-X S 2 100 -200 100 U 50 50 1 1 P
-X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
