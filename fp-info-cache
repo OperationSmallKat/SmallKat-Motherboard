@@ -1,4 +1,4 @@
--9204843841949414192
+18533047116443988
 01550900M
 0154.250DR
 0154.250DR
@@ -72071,6 +72071,34 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+RC-Battery-Connectors
+Deans_mini-T_female
+
+CONN DEV
+0
+2
+2
+RC-Battery-Connectors
+Deans_mini-T_male
+
+CONN DEV
+0
+2
+2
+RC-Battery-Connectors
+XT-60_female
+
+CONN DEV
+0
+2
+2
+RC-Battery-Connectors
+XT-60_male
+
+CONN DEV
+0
+2
+2
 RF_Antenna
 Abracon_APAES868R8060C16-T
 Abracon RHCP ceramic patch antenna 854-882Mhz, 5dBi
@@ -75900,20 +75928,6 @@ Logo WEEE
 0
 0
 0
-TPS543C20RVFT
-QFN50P500X700X152-41N-D
-RVF0040A
-Integrated Circuit
-0
-41
-41
-TPSM53602RDAR
-TPSM53604RDAR
-RDA0015A
-Integrated Circuit
-0
-17
-17
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -80982,6 +80996,13 @@ varistor SIOV
 0
 2
 2
+XT60PW-M
+XT60PWM
+XT60PW-M-2
+Connector
+0
+4
+4
 ffc
 FCI_62674-241121ALF
 
