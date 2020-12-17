@@ -1,4 +1,4 @@
-18533047116443988
+18536263446196234
 01550900M
 0154.250DR
 0154.250DR
@@ -48502,6 +48502,20 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DJI_BATTERY_CONN
+JST_EH_B10B-EH-A_1x10_P2.50mm_Vertical
+JST EH series connector, B10B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH side entry
+0
+10
+10
+DJI_BATTERY_CONN
+XT-30_female
+
+CONN DEV
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator

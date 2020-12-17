@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SmallKat-v2-rescue:BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue U?
+L SmallKat-v2-rescue:BNO055-Sensor_Motion-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue U?
 U 1 1 5DAC5A25
 P 5350 3550
 AR Path="/5DAC5A25" Ref="U?"  Part="1" 

@@ -104,687 +104,509 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DAB203D
-P 3100 850
+P 6050 850
 AR Path="/5DAB203D" Ref="C?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB203D" Ref="C12"  Part="1" 
 AR Path="/5FFBF398/5DAB203D" Ref="C?"  Part="1" 
 AR Path="/5DAAD545/5DAB203D" Ref="C12"  Part="1" 
-F 0 "C12" V 2848 850 50  0000 C CNN
-F 1 "0.1uF" V 2939 850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3138 700 50  0001 C CNN
-F 3 "~" H 3100 850 50  0001 C CNN
-	1    3100 850 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2550 1150 2950 1150
-Wire Wire Line
-	2950 1150 2950 850 
-Wire Wire Line
-	3250 850  3650 850 
-Wire Wire Line
-	3650 850  3650 1050
-Wire Wire Line
-	3650 1150 3750 1150
-$Comp
-L Device:R R?
-U 1 1 5DAB2048
-P 3900 1150
-AR Path="/5DAB2048" Ref="R?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB2048" Ref="R14"  Part="1" 
-AR Path="/5FFBF398/5DAB2048" Ref="R?"  Part="1" 
-AR Path="/5DAAD545/5DAB2048" Ref="R14"  Part="1" 
-F 0 "R14" V 3900 1150 50  0000 C CNN
-F 1 "10K" V 3784 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 1150 50  0001 C CNN
-F 3 "~" H 3900 1150 50  0001 C CNN
-	1    3900 1150
+F 0 "C12" V 5798 850 50  0000 C CNN
+F 1 "0.1uF" V 5889 850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6088 700 50  0001 C CNN
+F 3 "~" H 6050 850 50  0001 C CNN
+	1    6050 850 
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DAB204E
-P 3800 1250
+P 5200 1450
 AR Path="/5DAB204E" Ref="R?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB204E" Ref="R12"  Part="1" 
 AR Path="/5FFBF398/5DAB204E" Ref="R?"  Part="1" 
 AR Path="/5DAAD545/5DAB204E" Ref="R12"  Part="1" 
-F 0 "R12" V 3800 1250 50  0000 C CNN
-F 1 "33.2K" V 3900 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 1250 50  0001 C CNN
-F 3 "~" H 3800 1250 50  0001 C CNN
-	1    3800 1250
-	0    1    1    0   
+F 0 "R12" V 5200 1450 50  0000 C CNN
+F 1 "33.2" V 5300 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5130 1450 50  0001 C CNN
+F 3 "~" H 5200 1450 50  0001 C CNN
+	1    5200 1450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DAB2054
-P 3650 1400
+P 5350 1600
 AR Path="/5DAB2054" Ref="R?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB2054" Ref="R10"  Part="1" 
 AR Path="/5FFBF398/5DAB2054" Ref="R?"  Part="1" 
 AR Path="/5DAAD545/5DAB2054" Ref="R10"  Part="1" 
-F 0 "R10" V 3650 1450 50  0000 R CNN
-F 1 "10K" H 3580 1445 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3580 1400 50  0001 C CNN
-F 3 "~" H 3650 1400 50  0001 C CNN
-	1    3650 1400
+F 0 "R10" V 5350 1650 50  0000 R CNN
+F 1 "10K" H 5280 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 1600 50  0001 C CNN
+F 3 "~" H 5350 1600 50  0001 C CNN
+	1    5350 1600
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DAB205A
-P 3650 1550
+P 5350 1750
 AR Path="/5DAB205A" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB205A" Ref="#PWR0113"  Part="1" 
 AR Path="/5FFBF398/5DAB205A" Ref="#PWR?"  Part="1" 
 AR Path="/5DAAD545/5DAB205A" Ref="#PWR043"  Part="1" 
-F 0 "#PWR0113" H 3650 1300 50  0001 C CNN
-F 1 "GND" H 3655 1377 50  0000 C CNN
-F 2 "" H 3650 1550 50  0001 C CNN
-F 3 "" H 3650 1550 50  0001 C CNN
-	1    3650 1550
+F 0 "#PWR0113" H 5350 1500 50  0001 C CNN
+F 1 "GND" H 5355 1577 50  0000 C CNN
+F 2 "" H 5350 1750 50  0001 C CNN
+F 3 "" H 5350 1750 50  0001 C CNN
+	1    5350 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DAB2060
-P 3950 1250
+P 5050 1450
 AR Path="/5DAB2060" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB2060" Ref="#PWR0114"  Part="1" 
 AR Path="/5FFBF398/5DAB2060" Ref="#PWR?"  Part="1" 
 AR Path="/5DAAD545/5DAB2060" Ref="#PWR045"  Part="1" 
-F 0 "#PWR0114" H 3950 1100 50  0001 C CNN
-F 1 "+3.3V" V 3965 1378 50  0000 L CNN
-F 2 "" H 3950 1250 50  0001 C CNN
-F 3 "" H 3950 1250 50  0001 C CNN
-	1    3950 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC?
-U 1 1 5DAB2074
-P 2550 1050
-AR Path="/5DAB2074" Ref="IC?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB2074" Ref="IC1"  Part="1" 
-AR Path="/5FFBF398/5DAB2074" Ref="IC?"  Part="1" 
-AR Path="/5DAAD545/5DAB2074" Ref="IC1"  Part="1" 
-F 0 "IC1" H 3100 800 50  0000 C CNN
-F 1 "TPS562201DDCR" H 3100 650 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3500 1150 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/tps562201" H 3500 1050 50  0001 L CNN
-F 4 "4.5V to 17V Input, 2A Output, Synchronous Step-Down Converter" H 3500 950 50  0001 L CNN "Description"
-F 5 "1.1" H 3500 850 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 3500 750 50  0001 L CNN "Manufacturer_Name"
-F 7 "TPS562201DDCR" H 3500 650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-TPS562201DDCR" H 3500 550 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS562201DDCR" H 3500 450 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 3500 350 50  0001 L CNN "RS Part Number"
-F 11 "" H 3500 250 50  0001 L CNN "RS Price/Stock"
-	1    2550 1050
-	1    0    0    -1  
-$EndComp
-Connection ~ 3650 1250
-$Comp
-L Device:C C?
-U 1 1 5DAB207B
-P 1900 1600
-AR Path="/5DAB207B" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB207B" Ref="C8"  Part="1" 
-AR Path="/5FFBF398/5DAB207B" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5DAB207B" Ref="C8"  Part="1" 
-F 0 "C8" H 2015 1646 50  0000 L CNN
-F 1 "0.1uF" H 1950 1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1938 1450 50  0001 C CNN
-F 3 "~" H 1900 1600 50  0001 C CNN
-	1    1900 1600
-	1    0    0    -1  
+F 0 "#PWR0114" H 5050 1300 50  0001 C CNN
+F 1 "+3.3V" V 5065 1578 50  0000 L CNN
+F 2 "" H 5050 1450 50  0001 C CNN
+F 3 "" H 5050 1450 50  0001 C CNN
+	1    5050 1450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DAB2081
-P 1550 1600
+P 6950 1400
 AR Path="/5DAB2081" Ref="C?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB2081" Ref="C4"  Part="1" 
 AR Path="/5FFBF398/5DAB2081" Ref="C?"  Part="1" 
 AR Path="/5DAAD545/5DAB2081" Ref="C4"  Part="1" 
-F 0 "C4" H 1665 1646 50  0000 L CNN
-F 1 "10uF" H 1650 1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 1450 50  0001 C CNN
-F 3 "~" H 1550 1600 50  0001 C CNN
-	1    1550 1600
+F 0 "C4" H 7065 1446 50  0000 L CNN
+F 1 "10uF" H 7050 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6988 1250 50  0001 C CNN
+F 3 "~" H 6950 1400 50  0001 C CNN
+	1    6950 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5DAB2087
-P 1200 1600
+P 6600 1600
 AR Path="/5DAB2087" Ref="C?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB2087" Ref="C2"  Part="1" 
 AR Path="/5FFBF398/5DAB2087" Ref="C?"  Part="1" 
 AR Path="/5DAAD545/5DAB2087" Ref="C2"  Part="1" 
-F 0 "C2" H 1315 1646 50  0000 L CNN
-F 1 "10uF" H 1250 1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1238 1450 50  0001 C CNN
-F 3 "~" H 1200 1600 50  0001 C CNN
-	1    1200 1600
+F 0 "C2" H 6715 1646 50  0000 L CNN
+F 1 "2.2uF" H 6650 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6638 1450 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6600 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 1750 1550 1750
-Connection ~ 1550 1750
-Wire Wire Line
-	1550 1750 1900 1750
-Connection ~ 1900 1750
-Wire Wire Line
-	1900 1750 2550 1750
 $Comp
 L Device:L L?
 U 1 1 5DAB2092
-P 2400 1150
+P 6650 1250
 AR Path="/5DAB2092" Ref="L?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB2092" Ref="L1"  Part="1" 
 AR Path="/5FFBF398/5DAB2092" Ref="L?"  Part="1" 
 AR Path="/5DAAD545/5DAB2092" Ref="L1"  Part="1" 
-F 0 "L1" V 2250 1150 50  0000 C CNN
-F 1 "4.7uH" V 2350 1150 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 2400 1150 50  0001 C CNN
-F 3 "~" H 2400 1150 50  0001 C CNN
-	1    2400 1150
+F 0 "L1" V 6500 1250 50  0000 C CNN
+F 1 "10uH" V 6600 1250 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 6650 1250 50  0001 C CNN
+F 3 "~" H 6650 1250 50  0001 C CNN
+	1    6650 1250
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2550 1150
-Wire Wire Line
-	2550 1250 2550 1750
-$Comp
-L Device:C C?
-U 1 1 5DAB209A
-P 2000 1300
-AR Path="/5DAB209A" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB209A" Ref="C10"  Part="1" 
-AR Path="/5FFBF398/5DAB209A" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5DAB209A" Ref="C10"  Part="1" 
-F 0 "C10" H 2115 1346 50  0000 L CNN
-F 1 "22uF" H 2050 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2038 1150 50  0001 C CNN
-F 3 "~" H 2000 1300 50  0001 C CNN
-	1    2000 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5DAB20A0
-P 1700 1300
-AR Path="/5DAB20A0" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB20A0" Ref="C6"  Part="1" 
-AR Path="/5FFBF398/5DAB20A0" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5DAB20A0" Ref="C6"  Part="1" 
-F 0 "C6" H 1815 1346 50  0000 L CNN
-F 1 "22uF" H 1750 1200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1738 1150 50  0001 C CNN
-F 3 "~" H 1700 1300 50  0001 C CNN
-	1    1700 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1150 1700 1150
-Connection ~ 1700 1150
-Wire Wire Line
-	1700 1150 2000 1150
-Connection ~ 2000 1150
-Wire Wire Line
-	2000 1150 2250 1150
-Connection ~ 1550 1450
-Wire Wire Line
-	1550 1450 1700 1450
-Connection ~ 1700 1450
-Wire Wire Line
-	1700 1450 1900 1450
-Connection ~ 1900 1450
-Wire Wire Line
-	1900 1450 2000 1450
-$Comp
-L power:GND #PWR?
-U 1 1 5DAB20B8
-P 1200 1450
-AR Path="/5DAB20B8" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB20B8" Ref="#PWR0115"  Part="1" 
-AR Path="/5FFBF398/5DAB20B8" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5DAB20B8" Ref="#PWR037"  Part="1" 
-F 0 "#PWR0115" H 1200 1200 50  0001 C CNN
-F 1 "GND" V 1205 1322 50  0000 R CNN
-F 2 "" H 1200 1450 50  0001 C CNN
-F 3 "" H 1200 1450 50  0001 C CNN
-	1    1200 1450
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 1450
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DAB20BF
-P 950 1150
+P 7950 1250
 AR Path="/5DAB20BF" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5DAB20BF" Ref="#PWR0116"  Part="1" 
 AR Path="/5FFBF398/5DAB20BF" Ref="#PWR?"  Part="1" 
 AR Path="/5DAAD545/5DAB20BF" Ref="#PWR035"  Part="1" 
-F 0 "#PWR0116" H 950 1000 50  0001 C CNN
-F 1 "+3.3V" V 965 1278 50  0000 L CNN
-F 2 "" H 950 1150 50  0001 C CNN
-F 3 "" H 950 1150 50  0001 C CNN
-	1    950  1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DAB20C5
-P 2550 1050
-AR Path="/5DAB20C5" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5DAB20C5" Ref="#PWR0117"  Part="1" 
-AR Path="/5FFBF398/5DAB20C5" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5DAB20C5" Ref="#PWR041"  Part="1" 
-F 0 "#PWR0117" H 2550 800 50  0001 C CNN
-F 1 "GND" V 2555 922 50  0000 R CNN
-F 2 "" H 2550 1050 50  0001 C CNN
-F 3 "" H 2550 1050 50  0001 C CNN
-	1    2550 1050
+F 0 "#PWR0116" H 7950 1100 50  0001 C CNN
+F 1 "+3.3V" V 7965 1378 50  0000 L CNN
+F 2 "" H 7950 1250 50  0001 C CNN
+F 3 "" H 7950 1250 50  0001 C CNN
+	1    7950 1250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1200 1450 1550 1450
 $Comp
 L power:+BATT #PWR0118
 U 1 1 5DB7739F
-P 1200 1750
+P 6600 1450
 AR Path="/5DAA9390/5DAAD545/5DB7739F" Ref="#PWR0118"  Part="1" 
 AR Path="/5FFBF398/5DB7739F" Ref="#PWR?"  Part="1" 
 AR Path="/5DAAD545/5DB7739F" Ref="#PWR038"  Part="1" 
-F 0 "#PWR0118" H 1200 1600 50  0001 C CNN
-F 1 "+BATT" V 1215 1877 50  0000 L CNN
-F 2 "" H 1200 1750 50  0001 C CNN
-F 3 "" H 1200 1750 50  0001 C CNN
-	1    1200 1750
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1200 1750
-$Comp
-L power:+BATT #PWR0119
-U 1 1 5F6678AC
-P 4050 1150
-AR Path="/5DAA9390/5DAAD545/5F6678AC" Ref="#PWR0119"  Part="1" 
-AR Path="/5FFBF398/5F6678AC" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5F6678AC" Ref="#PWR047"  Part="1" 
-F 0 "#PWR0119" H 4050 1000 50  0001 C CNN
-F 1 "+BATT" V 4065 1277 50  0000 L CNN
-F 2 "" H 4050 1150 50  0001 C CNN
-F 3 "" H 4050 1150 50  0001 C CNN
-	1    4050 1150
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB8C032
-P 3100 2550
-AR Path="/5FB8C032" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C032" Ref="C13"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C032" Ref="C?"  Part="1" 
-AR Path="/5FFBF398/5FB8C032" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5FB8C032" Ref="C13"  Part="1" 
-F 0 "C13" V 2848 2550 50  0000 C CNN
-F 1 "0.1uF" V 2939 2550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3138 2400 50  0001 C CNN
-F 3 "~" H 3100 2550 50  0001 C CNN
-	1    3100 2550
+F 0 "#PWR0118" H 6600 1300 50  0001 C CNN
+F 1 "+BATT" V 6615 1577 50  0000 L CNN
+F 2 "" H 6600 1450 50  0001 C CNN
+F 3 "" H 6600 1450 50  0001 C CNN
+	1    6600 1450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2550 2850 2950 2850
-Wire Wire Line
-	2950 2850 2950 2550
-Wire Wire Line
-	3250 2550 3650 2550
-Wire Wire Line
-	3650 2550 3650 2750
-Wire Wire Line
-	3650 2850 3750 2850
-$Comp
-L Device:R R?
-U 1 1 5FB8C03D
-P 3900 2850
-AR Path="/5FB8C03D" Ref="R?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C03D" Ref="R15"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C03D" Ref="R?"  Part="1" 
-AR Path="/5FFBF398/5FB8C03D" Ref="R?"  Part="1" 
-AR Path="/5DAAD545/5FB8C03D" Ref="R15"  Part="1" 
-F 0 "R15" V 3900 2850 50  0000 C CNN
-F 1 "10K" V 3784 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 2850 50  0001 C CNN
-F 3 "~" H 3900 2850 50  0001 C CNN
-	1    3900 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FB8C043
-P 3800 2950
-AR Path="/5FB8C043" Ref="R?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C043" Ref="R13"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C043" Ref="R?"  Part="1" 
-AR Path="/5FFBF398/5FB8C043" Ref="R?"  Part="1" 
-AR Path="/5DAAD545/5FB8C043" Ref="R13"  Part="1" 
-F 0 "R13" V 3800 2950 50  0000 C CNN
-F 1 "33.2K" V 3900 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 2950 50  0001 C CNN
-F 3 "~" H 3800 2950 50  0001 C CNN
-	1    3800 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FB8C049
-P 3650 3100
-AR Path="/5FB8C049" Ref="R?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C049" Ref="R11"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C049" Ref="R?"  Part="1" 
-AR Path="/5FFBF398/5FB8C049" Ref="R?"  Part="1" 
-AR Path="/5DAAD545/5FB8C049" Ref="R11"  Part="1" 
-F 0 "R11" V 3650 3150 50  0000 R CNN
-F 1 "10K" H 3580 3145 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3580 3100 50  0001 C CNN
-F 3 "~" H 3650 3100 50  0001 C CNN
-	1    3650 3100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FB8C04F
-P 3650 3250
-AR Path="/5FB8C04F" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C04F" Ref="#PWR0120"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C04F" Ref="#PWR?"  Part="1" 
-AR Path="/5FFBF398/5FB8C04F" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5FB8C04F" Ref="#PWR044"  Part="1" 
-F 0 "#PWR0120" H 3650 3000 50  0001 C CNN
-F 1 "GND" H 3655 3077 50  0000 C CNN
-F 2 "" H 3650 3250 50  0001 C CNN
-F 3 "" H 3650 3250 50  0001 C CNN
-	1    3650 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5FB8C055
-P 3950 2950
-AR Path="/5FB8C055" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C055" Ref="#PWR0121"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C055" Ref="#PWR?"  Part="1" 
-AR Path="/5FFBF398/5FB8C055" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5FB8C055" Ref="#PWR046"  Part="1" 
-F 0 "#PWR0121" H 3950 2800 50  0001 C CNN
-F 1 "+3.3V" V 3965 3078 50  0000 L CNN
-F 2 "" H 3950 2950 50  0001 C CNN
-F 3 "" H 3950 2950 50  0001 C CNN
-	1    3950 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L SmallKat-v2-rescue:TPS562201DDCR-TPS562201DDCR-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC?
-U 1 1 5FB8C063
-P 2550 2750
-AR Path="/5FB8C063" Ref="IC?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C063" Ref="IC2"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C063" Ref="IC?"  Part="1" 
-AR Path="/5FFBF398/5FB8C063" Ref="IC?"  Part="1" 
-AR Path="/5DAAD545/5FB8C063" Ref="IC2"  Part="1" 
-F 0 "IC2" H 3100 2500 50  0000 C CNN
-F 1 "TPS562201DDCR" H 3100 2350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3500 2850 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/tps562201" H 3500 2750 50  0001 L CNN
-F 4 "4.5V to 17V Input, 2A Output, Synchronous Step-Down Converter" H 3500 2650 50  0001 L CNN "Description"
-F 5 "1.1" H 3500 2550 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 3500 2450 50  0001 L CNN "Manufacturer_Name"
-F 7 "TPS562201DDCR" H 3500 2350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-TPS562201DDCR" H 3500 2250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS562201DDCR" H 3500 2150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 3500 2050 50  0001 L CNN "RS Part Number"
-F 11 "" H 3500 1950 50  0001 L CNN "RS Price/Stock"
-	1    2550 2750
-	1    0    0    -1  
-$EndComp
-Connection ~ 3650 2950
-$Comp
-L Device:C C?
-U 1 1 5FB8C06A
-P 1900 3300
-AR Path="/5FB8C06A" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C06A" Ref="C9"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C06A" Ref="C?"  Part="1" 
-AR Path="/5FFBF398/5FB8C06A" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5FB8C06A" Ref="C9"  Part="1" 
-F 0 "C9" H 2015 3346 50  0000 L CNN
-F 1 "0.1uF" H 1950 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1938 3150 50  0001 C CNN
-F 3 "~" H 1900 3300 50  0001 C CNN
-	1    1900 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB8C070
-P 1550 3300
-AR Path="/5FB8C070" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C070" Ref="C5"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C070" Ref="C?"  Part="1" 
-AR Path="/5FFBF398/5FB8C070" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5FB8C070" Ref="C5"  Part="1" 
-F 0 "C5" H 1665 3346 50  0000 L CNN
-F 1 "10uF" H 1650 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1588 3150 50  0001 C CNN
-F 3 "~" H 1550 3300 50  0001 C CNN
-	1    1550 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB8C076
-P 1200 3300
-AR Path="/5FB8C076" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C076" Ref="C3"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C076" Ref="C?"  Part="1" 
-AR Path="/5FFBF398/5FB8C076" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5FB8C076" Ref="C3"  Part="1" 
-F 0 "C3" H 1315 3346 50  0000 L CNN
-F 1 "10uF" H 1250 3200 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1238 3150 50  0001 C CNN
-F 3 "~" H 1200 3300 50  0001 C CNN
-	1    1200 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 3450 1550 3450
-Connection ~ 1550 3450
-Wire Wire Line
-	1550 3450 1900 3450
-Connection ~ 1900 3450
-Wire Wire Line
-	1900 3450 2550 3450
-$Comp
-L Device:L L?
-U 1 1 5FB8C081
-P 2400 2850
-AR Path="/5FB8C081" Ref="L?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C081" Ref="L2"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C081" Ref="L?"  Part="1" 
-AR Path="/5FFBF398/5FB8C081" Ref="L?"  Part="1" 
-AR Path="/5DAAD545/5FB8C081" Ref="L2"  Part="1" 
-F 0 "L2" V 2250 2850 50  0000 C CNN
-F 1 "4.7uH" V 2350 2850 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 2400 2850 50  0001 C CNN
-F 3 "~" H 2400 2850 50  0001 C CNN
-	1    2400 2850
-	0    -1   -1   0   
-$EndComp
-Connection ~ 2550 2850
-Wire Wire Line
-	2550 2950 2550 3450
-$Comp
-L Device:C C?
-U 1 1 5FB8C089
-P 2000 3000
-AR Path="/5FB8C089" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C089" Ref="C11"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C089" Ref="C?"  Part="1" 
-AR Path="/5FFBF398/5FB8C089" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5FB8C089" Ref="C11"  Part="1" 
-F 0 "C11" H 2115 3046 50  0000 L CNN
-F 1 "22uF" H 2050 2900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2038 2850 50  0001 C CNN
-F 3 "~" H 2000 3000 50  0001 C CNN
-	1    2000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FB8C08F
-P 1700 3000
-AR Path="/5FB8C08F" Ref="C?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C08F" Ref="C7"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C08F" Ref="C?"  Part="1" 
-AR Path="/5FFBF398/5FB8C08F" Ref="C?"  Part="1" 
-AR Path="/5DAAD545/5FB8C08F" Ref="C7"  Part="1" 
-F 0 "C7" H 1815 3046 50  0000 L CNN
-F 1 "22uF" H 1750 2900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1738 2850 50  0001 C CNN
-F 3 "~" H 1700 3000 50  0001 C CNN
-	1    1700 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 2850 1700 2850
-Connection ~ 1700 2850
-Wire Wire Line
-	1700 2850 2000 2850
-Connection ~ 2000 2850
-Wire Wire Line
-	2000 2850 2250 2850
-Connection ~ 1550 3150
-Wire Wire Line
-	1550 3150 1700 3150
-Connection ~ 1700 3150
-Wire Wire Line
-	1700 3150 1900 3150
-Connection ~ 1900 3150
-Wire Wire Line
-	1900 3150 2000 3150
-$Comp
-L power:GND #PWR?
-U 1 1 5FB8C0A0
-P 1200 3150
-AR Path="/5FB8C0A0" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C0A0" Ref="#PWR0122"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C0A0" Ref="#PWR?"  Part="1" 
-AR Path="/5FFBF398/5FB8C0A0" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5FB8C0A0" Ref="#PWR039"  Part="1" 
-F 0 "#PWR0122" H 1200 2900 50  0001 C CNN
-F 1 "GND" V 1205 3022 50  0000 R CNN
-F 2 "" H 1200 3150 50  0001 C CNN
-F 3 "" H 1200 3150 50  0001 C CNN
-	1    1200 3150
-	0    1    1    0   
-$EndComp
-Connection ~ 1200 3150
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5FB8C0A7
-P 950 2850
-AR Path="/5FB8C0A7" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C0A7" Ref="#PWR0123"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C0A7" Ref="#PWR?"  Part="1" 
-AR Path="/5FFBF398/5FB8C0A7" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5FB8C0A7" Ref="#PWR036"  Part="1" 
-F 0 "#PWR0123" H 950 2700 50  0001 C CNN
-F 1 "+3.3V" V 965 2978 50  0000 L CNN
-F 2 "" H 950 2850 50  0001 C CNN
-F 3 "" H 950 2850 50  0001 C CNN
-	1    950  2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FB8C0AD
-P 2550 2750
-AR Path="/5FB8C0AD" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C0AD" Ref="#PWR0124"  Part="1" 
-AR Path="/5DAA9390/5DAAB924/5FB8C0AD" Ref="#PWR?"  Part="1" 
-AR Path="/5FFBF398/5FB8C0AD" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5FB8C0AD" Ref="#PWR042"  Part="1" 
-F 0 "#PWR0124" H 2550 2500 50  0001 C CNN
-F 1 "GND" V 2555 2622 50  0000 R CNN
-F 2 "" H 2550 2750 50  0001 C CNN
-F 3 "" H 2550 2750 50  0001 C CNN
-	1    2550 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 3150 1550 3150
-$Comp
-L power:VBUS #PWR?
-U 1 1 5FB8C0BA
-P 1200 3450
-AR Path="/5DAA9390/5DAAB924/5FB8C0BA" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9E7A/5DB7E2D8/5FB8C0BA" Ref="#PWR?"  Part="1" 
-AR Path="/5DAA9390/5DAAD545/5FB8C0BA" Ref="#PWR0125"  Part="1" 
-AR Path="/5FFBF398/5FB8C0BA" Ref="#PWR?"  Part="1" 
-AR Path="/5DAAD545/5FB8C0BA" Ref="#PWR040"  Part="1" 
-F 0 "#PWR0125" H 1200 3300 50  0001 C CNN
-F 1 "VBUS" H 1215 3623 50  0000 C CNN
-F 2 "" H 1200 3450 50  0001 C CNN
-F 3 "" H 1200 3450 50  0001 C CNN
-	1    1200 3450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1200 3450
 $Comp
 L pspice:DIODE D4
 U 1 1 5FC888B1
-P 1150 1150
+P 7450 1250
 AR Path="/5DAA9390/5DAAD545/5FC888B1" Ref="D4"  Part="1" 
 AR Path="/5FFBF398/5FC888B1" Ref="D?"  Part="1" 
 AR Path="/5DAAD545/5FC888B1" Ref="D4"  Part="1" 
-F 0 "D4" H 1150 885 50  0000 C CNN
-F 1 "DIODE" H 1150 976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 1150 1150 50  0001 C CNN
-F 3 "~" H 1150 1150 50  0001 C CNN
-	1    1150 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L pspice:DIODE D5
-U 1 1 5FC895A5
-P 1150 2850
-AR Path="/5DAA9390/5DAAD545/5FC895A5" Ref="D5"  Part="1" 
-AR Path="/5FFBF398/5FC895A5" Ref="D?"  Part="1" 
-AR Path="/5DAAD545/5FC895A5" Ref="D5"  Part="1" 
-F 0 "D5" H 1150 2585 50  0000 C CNN
-F 1 "DIODE" H 1150 2676 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 1150 2850 50  0001 C CNN
-F 3 "~" H 1150 2850 50  0001 C CNN
-	1    1150 2850
-	-1   0    0    1   
+F 0 "D4" H 7450 985 50  0000 C CNN
+F 1 "DIODE" H 7450 1076 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7450 1250 50  0001 C CNN
+F 3 "~" H 7450 1250 50  0001 C CNN
+	1    7450 1250
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR?
 U 1 1 5FC87AF3
-P 4050 2850
+P 6750 2900
 AR Path="/5DAA9390/5DAAB924/5FC87AF3" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9E7A/5DB7E2D8/5FC87AF3" Ref="#PWR?"  Part="1" 
 AR Path="/5DAA9390/5DAAD545/5FC87AF3" Ref="#PWR0126"  Part="1" 
 AR Path="/5FFBF398/5FC87AF3" Ref="#PWR?"  Part="1" 
 AR Path="/5DAAD545/5FC87AF3" Ref="#PWR048"  Part="1" 
-F 0 "#PWR0126" H 4050 2700 50  0001 C CNN
-F 1 "VBUS" H 4065 3023 50  0000 C CNN
-F 2 "" H 4050 2850 50  0001 C CNN
-F 3 "" H 4050 2850 50  0001 C CNN
-	1    4050 2850
+F 0 "#PWR0126" H 6750 2750 50  0001 C CNN
+F 1 "VBUS" H 6765 3073 50  0000 C CNN
+F 2 "" H 6750 2900 50  0001 C CNN
+F 3 "" H 6750 2900 50  0001 C CNN
+	1    6750 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LMR50410YQDBVRQ1:LMR50410YQDBVRQ1 IC1
+U 1 1 5FDB78E1
+P 5500 1250
+F 0 "IC1" H 6000 1515 50  0000 C CNN
+F 1 "LMR14010A" H 6000 1424 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6350 1350 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf?ts=1599768400389&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMR50410YQDBVRQ1" H 6350 1250 50  0001 L CNN
+F 4 "Switching Voltage Regulators Automotive qualified SIMPLE SWITCHER 4-V to 36-V, 1-A synchronous step-down converter 6-SOT-23 -40 to 150" H 6350 1150 50  0001 L CNN "Description"
+F 5 "1.45" H 6350 1050 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6350 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "LMR50410YQDBVRQ1" H 6350 850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "LMR50410YQDBVRQ1" H 6350 750 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/lmr50410yqdbvrq1/texas-instruments" H 6350 650 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-LMR50410YQDBVRQ1" H 6350 550 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR50410YQDBVRQ1?qs=bAKSY%2FctAC7Hv1DHEiqbKw%3D%3D" H 6350 450 50  0001 L CNN "Mouser Price/Stock"
+	1    5500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5FDBB2C2
+P 5500 1350
+F 0 "#PWR0115" H 5500 1100 50  0001 C CNN
+F 1 "GND" V 5505 1222 50  0000 R CNN
+F 2 "" H 5500 1350 50  0001 C CNN
+F 3 "" H 5500 1350 50  0001 C CNN
+	1    5500 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 1450 5500 1450
+Connection ~ 5350 1450
+Wire Wire Line
+	6500 1350 6500 1450
+Wire Wire Line
+	6500 1450 6600 1450
+Connection ~ 6500 1450
+Wire Wire Line
+	5500 1250 5500 850 
+Wire Wire Line
+	5500 850  5900 850 
+Wire Wire Line
+	6200 850  6500 850 
+Wire Wire Line
+	6500 850  6500 1250
+Connection ~ 6500 1250
+$Comp
+L power:GND #PWR?
+U 1 1 5FDD44D5
+P 6600 1750
+AR Path="/5FDD44D5" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDD44D5" Ref="#PWR0117"  Part="1" 
+AR Path="/5FFBF398/5FDD44D5" Ref="#PWR?"  Part="1" 
+AR Path="/5DAAD545/5FDD44D5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 6600 1500 50  0001 C CNN
+F 1 "GND" H 6605 1577 50  0000 C CNN
+F 2 "" H 6600 1750 50  0001 C CNN
+F 3 "" H 6600 1750 50  0001 C CNN
+	1    6600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1250 6950 1250
+$Comp
+L power:GND #PWR0119
+U 1 1 5FDD94EA
+P 6950 1550
+F 0 "#PWR0119" H 6950 1300 50  0001 C CNN
+F 1 "GND" H 6955 1377 50  0000 C CNN
+F 2 "" H 6950 1550 50  0001 C CNN
+F 3 "" H 6950 1550 50  0001 C CNN
+	1    6950 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1250 6950 1250
+Connection ~ 6950 1250
+Connection ~ 6600 1450
+$Comp
+L Device:C C?
+U 1 1 5FDF6932
+P 6200 2300
+AR Path="/5FDF6932" Ref="C?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6932" Ref="C3"  Part="1" 
+AR Path="/5FFBF398/5FDF6932" Ref="C?"  Part="1" 
+AR Path="/5DAAD545/5FDF6932" Ref="C?"  Part="1" 
+F 0 "C3" V 5948 2300 50  0000 C CNN
+F 1 "0.1uF" V 6039 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 2150 50  0001 C CNN
+F 3 "~" H 6200 2300 50  0001 C CNN
+	1    6200 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDF6938
+P 5350 2900
+AR Path="/5FDF6938" Ref="R?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6938" Ref="R11"  Part="1" 
+AR Path="/5FFBF398/5FDF6938" Ref="R?"  Part="1" 
+AR Path="/5DAAD545/5FDF6938" Ref="R?"  Part="1" 
+F 0 "R11" V 5350 2900 50  0000 C CNN
+F 1 "33.2" V 5450 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 2900 50  0001 C CNN
+F 3 "~" H 5350 2900 50  0001 C CNN
+	1    5350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDF693E
+P 5500 3050
+AR Path="/5FDF693E" Ref="R?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF693E" Ref="R13"  Part="1" 
+AR Path="/5FFBF398/5FDF693E" Ref="R?"  Part="1" 
+AR Path="/5DAAD545/5FDF693E" Ref="R?"  Part="1" 
+F 0 "R13" V 5500 3100 50  0000 R CNN
+F 1 "10K" H 5430 3095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 3050 50  0001 C CNN
+F 3 "~" H 5500 3050 50  0001 C CNN
+	1    5500 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF6944
+P 5500 3200
+AR Path="/5FDF6944" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6944" Ref="#PWR0120"  Part="1" 
+AR Path="/5FFBF398/5FDF6944" Ref="#PWR?"  Part="1" 
+AR Path="/5DAAD545/5FDF6944" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 5500 2950 50  0001 C CNN
+F 1 "GND" H 5505 3027 50  0000 C CNN
+F 2 "" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDF694A
+P 5200 2900
+AR Path="/5FDF694A" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF694A" Ref="#PWR0121"  Part="1" 
+AR Path="/5FFBF398/5FDF694A" Ref="#PWR?"  Part="1" 
+AR Path="/5DAAD545/5FDF694A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H 5200 2750 50  0001 C CNN
+F 1 "+3.3V" V 5215 3028 50  0000 L CNN
+F 2 "" H 5200 2900 50  0001 C CNN
+F 3 "" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDF6950
+P 7100 2850
+AR Path="/5FDF6950" Ref="C?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6950" Ref="C6"  Part="1" 
+AR Path="/5FFBF398/5FDF6950" Ref="C?"  Part="1" 
+AR Path="/5DAAD545/5FDF6950" Ref="C?"  Part="1" 
+F 0 "C6" H 7215 2896 50  0000 L CNN
+F 1 "10uF" H 7200 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7138 2700 50  0001 C CNN
+F 3 "~" H 7100 2850 50  0001 C CNN
+	1    7100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FDF6956
+P 6750 3050
+AR Path="/5FDF6956" Ref="C?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6956" Ref="C5"  Part="1" 
+AR Path="/5FFBF398/5FDF6956" Ref="C?"  Part="1" 
+AR Path="/5DAAD545/5FDF6956" Ref="C?"  Part="1" 
+F 0 "C5" H 6865 3096 50  0000 L CNN
+F 1 "2.2uF" H 6800 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6788 2900 50  0001 C CNN
+F 3 "~" H 6750 3050 50  0001 C CNN
+	1    6750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5FDF695C
+P 6800 2700
+AR Path="/5FDF695C" Ref="L?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF695C" Ref="L2"  Part="1" 
+AR Path="/5FFBF398/5FDF695C" Ref="L?"  Part="1" 
+AR Path="/5DAAD545/5FDF695C" Ref="L?"  Part="1" 
+F 0 "L2" V 6650 2700 50  0000 C CNN
+F 1 "10uH" V 6750 2700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 6800 2700 50  0001 C CNN
+F 3 "~" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDF6962
+P 8100 2700
+AR Path="/5FDF6962" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6962" Ref="#PWR0122"  Part="1" 
+AR Path="/5FFBF398/5FDF6962" Ref="#PWR?"  Part="1" 
+AR Path="/5DAAD545/5FDF6962" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0122" H 8100 2550 50  0001 C CNN
+F 1 "+3.3V" V 8115 2828 50  0000 L CNN
+F 2 "" H 8100 2700 50  0001 C CNN
+F 3 "" H 8100 2700 50  0001 C CNN
+	1    8100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D5
+U 1 1 5FDF696E
+P 7600 2700
+AR Path="/5DAA9390/5DAAD545/5FDF696E" Ref="D5"  Part="1" 
+AR Path="/5FFBF398/5FDF696E" Ref="D?"  Part="1" 
+AR Path="/5DAAD545/5FDF696E" Ref="D?"  Part="1" 
+F 0 "D5" H 7600 2435 50  0000 C CNN
+F 1 "DIODE" H 7600 2526 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 7600 2700 50  0001 C CNN
+F 3 "~" H 7600 2700 50  0001 C CNN
+	1    7600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMR50410YQDBVRQ1:LMR50410YQDBVRQ1 IC2
+U 1 1 5FDF697C
+P 5650 2700
+F 0 "IC2" H 6150 2965 50  0000 C CNN
+F 1 "LMR14010A" H 6150 2874 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6500 2800 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf?ts=1599768400389&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMR50410YQDBVRQ1" H 6500 2700 50  0001 L CNN
+F 4 "Switching Voltage Regulators Automotive qualified SIMPLE SWITCHER 4-V to 36-V, 1-A synchronous step-down converter 6-SOT-23 -40 to 150" H 6500 2600 50  0001 L CNN "Description"
+F 5 "1.45" H 6500 2500 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6500 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "LMR50410YQDBVRQ1" H 6500 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "LMR50410YQDBVRQ1" H 6500 2200 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/lmr50410yqdbvrq1/texas-instruments" H 6500 2100 50  0001 L CNN "Arrow Price/Stock"
+F 10 "595-LMR50410YQDBVRQ1" H 6500 2000 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR50410YQDBVRQ1?qs=bAKSY%2FctAC7Hv1DHEiqbKw%3D%3D" H 6500 1900 50  0001 L CNN "Mouser Price/Stock"
+	1    5650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5FDF6982
+P 5650 2800
+F 0 "#PWR0123" H 5650 2550 50  0001 C CNN
+F 1 "GND" V 5655 2672 50  0000 R CNN
+F 2 "" H 5650 2800 50  0001 C CNN
+F 3 "" H 5650 2800 50  0001 C CNN
+	1    5650 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 2900 5650 2900
+Connection ~ 5500 2900
+Wire Wire Line
+	6650 2800 6650 2900
+Wire Wire Line
+	6650 2900 6750 2900
+Connection ~ 6650 2900
+Wire Wire Line
+	5650 2700 5650 2300
+Wire Wire Line
+	5650 2300 6050 2300
+Wire Wire Line
+	6350 2300 6650 2300
+Wire Wire Line
+	6650 2300 6650 2700
+Connection ~ 6650 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5FDF6992
+P 6750 3200
+AR Path="/5FDF6992" Ref="#PWR?"  Part="1" 
+AR Path="/5DAA9390/5DAAD545/5FDF6992" Ref="#PWR0124"  Part="1" 
+AR Path="/5FFBF398/5FDF6992" Ref="#PWR?"  Part="1" 
+AR Path="/5DAAD545/5FDF6992" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0124" H 6750 2950 50  0001 C CNN
+F 1 "GND" H 6755 3027 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2700 7100 2700
+$Comp
+L power:GND #PWR0125
+U 1 1 5FDF6999
+P 7100 3000
+F 0 "#PWR0125" H 7100 2750 50  0001 C CNN
+F 1 "GND" H 7105 2827 50  0000 C CNN
+F 2 "" H 7100 3000 50  0001 C CNN
+F 3 "" H 7100 3000 50  0001 C CNN
+	1    7100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2700 7100 2700
+Connection ~ 7100 2700
+Connection ~ 6750 2900
+$Comp
+L Device:Fuse F6
+U 1 1 5FE097C6
+P 7800 1250
+F 0 "F6" V 7603 1250 50  0000 C CNN
+F 1 "Fuse" V 7694 1250 50  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" V 7730 1250 50  0001 C CNN
+F 3 "~" H 7800 1250 50  0001 C CNN
+	1    7800 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F7
+U 1 1 5FE0A1E9
+P 7950 2700
+F 0 "F7" V 7753 2700 50  0000 C CNN
+F 1 "Fuse" V 7844 2700 50  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" V 7880 2700 50  0001 C CNN
+F 3 "~" H 7950 2700 50  0001 C CNN
+	1    7950 2700
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
