@@ -22,8 +22,8 @@
 | 23| LED|
 | 25| BATT_VOLTAGE_ADC|
 | 26| 6_VOLT_ADC|
-| 27| SDA_1|
-| 32| SCL_1|
+| 27| SCL_1|
+| 32| SDA_1|
 | 33| Fuse5_ADC|
 | 34| FUSE2_ADC|
 | 35| FUSE1_ADC|
@@ -31,5 +31,6 @@
 | 39| FUSE4_ADC|
 
 ## I2C
-  * i2c 1 - BNO055, QwIIC connector
-  * i2c 2 - PCA9685
+
+  * i2c 1 (SCL 22, SDA 21) - BNO055, QwIIC connector
+  * i2c 2 (SCL 27, SDA 32) - PCA9685
