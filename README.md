@@ -8,18 +8,28 @@
 | 2| SD_DATA0|
 | 3| RX|
 | 4| SD_DATA1|
-| 5| 6V_EN|
+| 5| AD_SERVO_1|
 | 12| SD_DATA2|
 | 13| SD_DATA3|
 | 14| SD_CLK|
 | 15| SD_CMD|
+| 16| AD_SERVO_2|
+| 17| AD_SERVO_3|
 | 18| EN_SERVO_DRIVER|
+| 19| AD_SERVO_4|
 | 21| SDA |
 | 22| SCL |
-| 23| LIFE_LED|
+| 23| LED|
 | 25| BATT_VOLTAGE_ADC|
 | 26| 6_VOLT_ADC|
+| 27| SDA_1|
+| 32| SCL_1|
+| 33| Fuse5_ADC|
 | 34| FUSE2_ADC|
 | 35| FUSE1_ADC|
 | 36| FUSE3_ADC|
 | 39| FUSE4_ADC|
+
+## I2C
+  * i2c 1 - BNO055, QwIIC connector
+  * i2c 2 - PCA9685
