@@ -33,4 +33,8 @@
 ## I2C
 
   * i2c 1 (SCL 22, SDA 21) - BNO055, QwIIC connector
-  * i2c 2 (SCL 27, SDA 32) - PCA9685
+  * i2c 2 (SCL 27, SDA 32) - PCA9685, QwIIC connector
+  
+## Pretty Picture
+![Motherboard](Motherboard.png)
+
