@@ -568,8 +568,6 @@ F 3 "~" H 9650 950 50  0001 C CNN
 	1    9450 950 
 	1    0    0    -1  
 $EndComp
-Text Label 9450 950  3    50   ~ 0
-DTR
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5DABAA87
@@ -586,25 +584,23 @@ F 3 "~" H 10200 950 50  0001 C CNN
 	1    10000 950 
 	1    0    0    -1  
 $EndComp
-Text Label 10000 950  3    50   ~ 0
-RTS
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5DABAF8E
-P 8900 1300
+P 8900 1400
 AR Path="/5DAA9390/5DAAB924/5DABAF8E" Ref="TP6"  Part="1" 
 AR Path="/5DAA9E7A/5DB7E2D8/5DABAF8E" Ref="TP?"  Part="1" 
 AR Path="/5DB7E2D8/5DABAF8E" Ref="TP?"  Part="1" 
 AR Path="/5FFBF360/5DABAF8E" Ref="TP?"  Part="1" 
 AR Path="/5DAAB924/5DABAF8E" Ref="TP6"  Part="1" 
-F 0 "TP6" H 8958 1418 50  0000 L CNN
-F 1 "TestPoint" H 8958 1327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9100 1300 50  0001 C CNN
-F 3 "~" H 9100 1300 50  0001 C CNN
-	1    8900 1300
+F 0 "TP6" H 8958 1518 50  0000 L CNN
+F 1 "TestPoint" H 8958 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9100 1400 50  0001 C CNN
+F 3 "~" H 9100 1400 50  0001 C CNN
+	1    8900 1400
 	1    0    0    -1  
 $EndComp
-Text Label 8900 1300 3    50   ~ 0
+Text Label 8900 1400 3    50   ~ 0
 RXD
 Wire Wire Line
 	4000 6350 4000 6650
@@ -978,4 +974,44 @@ F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" 
 	1    7400 2850
 	1    0    0    -1  
 $EndComp
+Text Label 10000 950  3    50   ~ 0
+RTS
+Text Label 9450 950  3    50   ~ 0
+DTR
+$Comp
+L Connector:TestPoint TP14
+U 1 1 6037EA5D
+P 9450 1400
+AR Path="/5DAA9390/5DAAB924/6037EA5D" Ref="TP14"  Part="1" 
+AR Path="/5DAA9E7A/5DB7E2D8/6037EA5D" Ref="TP?"  Part="1" 
+AR Path="/5DB7E2D8/6037EA5D" Ref="TP?"  Part="1" 
+AR Path="/5FFBF360/6037EA5D" Ref="TP?"  Part="1" 
+AR Path="/5DAAB924/6037EA5D" Ref="TP?"  Part="1" 
+F 0 "TP14" H 9508 1518 50  0000 L CNN
+F 1 "TestPoint" H 9508 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9650 1400 50  0001 C CNN
+F 3 "~" H 9650 1400 50  0001 C CNN
+	1    9450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 6037EA63
+P 10000 1400
+AR Path="/5DAA9390/5DAAB924/6037EA63" Ref="TP15"  Part="1" 
+AR Path="/5DAA9E7A/5DB7E2D8/6037EA63" Ref="TP?"  Part="1" 
+AR Path="/5DB7E2D8/6037EA63" Ref="TP?"  Part="1" 
+AR Path="/5FFBF360/6037EA63" Ref="TP?"  Part="1" 
+AR Path="/5DAAB924/6037EA63" Ref="TP?"  Part="1" 
+F 0 "TP15" H 10058 1518 50  0000 L CNN
+F 1 "TestPoint" H 10058 1427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10200 1400 50  0001 C CNN
+F 3 "~" H 10200 1400 50  0001 C CNN
+	1    10000 1400
+	1    0    0    -1  
+$EndComp
+Text Label 9450 1400 3    50   ~ 0
+EN
+Text Label 10000 1400 3    50   ~ 0
+IO0
 $EndSCHEMATC
