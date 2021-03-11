@@ -738,7 +738,7 @@ $EndComp
 Connection ~ 3800 6650
 Connection ~ 4000 6650
 $Comp
-L SmallKat-v2-rescue:USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue J?
+L SmallKat-v2-rescue:USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue J?
 U 1 1 5DBC0E27
 P 4200 7250
 AR Path="/5DAA9E7A/5DB7E2D8/5DBC0E27" Ref="J?"  Part="1" 
@@ -979,15 +979,15 @@ RTS
 Text Label 9450 950  3    50   ~ 0
 DTR
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP14
 U 1 1 6037EA5D
 P 9450 1400
-AR Path="/5DAA9390/5DAAB924/6037EA5D" Ref="TP?"  Part="1" 
+AR Path="/5DAA9390/5DAAB924/6037EA5D" Ref="TP14"  Part="1" 
 AR Path="/5DAA9E7A/5DB7E2D8/6037EA5D" Ref="TP?"  Part="1" 
 AR Path="/5DB7E2D8/6037EA5D" Ref="TP?"  Part="1" 
 AR Path="/5FFBF360/6037EA5D" Ref="TP?"  Part="1" 
 AR Path="/5DAAB924/6037EA5D" Ref="TP?"  Part="1" 
-F 0 "TP?" H 9508 1518 50  0000 L CNN
+F 0 "TP14" H 9508 1518 50  0000 L CNN
 F 1 "TestPoint" H 9508 1427 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9650 1400 50  0001 C CNN
 F 3 "~" H 9650 1400 50  0001 C CNN
@@ -995,15 +995,15 @@ F 3 "~" H 9650 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP15
 U 1 1 6037EA63
 P 10000 1400
-AR Path="/5DAA9390/5DAAB924/6037EA63" Ref="TP?"  Part="1" 
+AR Path="/5DAA9390/5DAAB924/6037EA63" Ref="TP15"  Part="1" 
 AR Path="/5DAA9E7A/5DB7E2D8/6037EA63" Ref="TP?"  Part="1" 
 AR Path="/5DB7E2D8/6037EA63" Ref="TP?"  Part="1" 
 AR Path="/5FFBF360/6037EA63" Ref="TP?"  Part="1" 
 AR Path="/5DAAB924/6037EA63" Ref="TP?"  Part="1" 
-F 0 "TP?" H 10058 1518 50  0000 L CNN
+F 0 "TP15" H 10058 1518 50  0000 L CNN
 F 1 "TestPoint" H 10058 1427 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10200 1400 50  0001 C CNN
 F 3 "~" H 10200 1400 50  0001 C CNN

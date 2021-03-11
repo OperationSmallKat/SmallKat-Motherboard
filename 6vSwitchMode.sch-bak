@@ -915,7 +915,7 @@ F 3 "~" H 8650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SmallKat-v2-rescue:TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC3
+L SmallKat-v2-rescue:TPS40192DRCT-TPS40192DRCT-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue IC3
 U 1 1 5E883273
 P 5100 2900
 AR Path="/5DAA9390/5E0C112B/5E883273" Ref="IC3"  Part="1" 

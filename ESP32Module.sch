@@ -738,7 +738,7 @@ $EndComp
 Connection ~ 3800 6650
 Connection ~ 4000 6650
 $Comp
-L SmallKat-v2-rescue:USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue J?
+L SmallKat-v2-rescue:USB_C_Receptacle-Connector-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue-SmallKat-v2-rescue J?
 U 1 1 5DBC0E27
 P 4200 7250
 AR Path="/5DAA9E7A/5DB7E2D8/5DBC0E27" Ref="J?"  Part="1" 
