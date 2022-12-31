@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BHI260AP
-D Multiple Function Sensor Modules Self-Learning AI sensor with integrated microcontroller and an IMU
-K
-F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bhi260ap-ds000.pdf
-$ENDCMP
-#
-#End Doc Library

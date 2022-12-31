@@ -1056,7 +1056,7 @@
       (net 21 "/MainBoard/Servos/6V1") (pintype "passive") (tstamp 4b8dc32c-b102-404a-8398-b9aa3fad8389))
     (pad "2" smd rect locked (at 3.185 0 90) (size 3.81 4.24) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+6V") (pintype "passive") (tstamp de18940b-d623-4db9-ac21-0a6610809a7d))
-    (model "${KIPRJMOD}/User Library-OMNI-BLOK littelfuse.STEP"
+    (model "${KIPRJMOD}/3D_models/User Library-OMNI-BLOK littelfuse.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1091,7 +1091,7 @@
       (net 23 "/MainBoard/Servos/6V2") (pintype "passive") (tstamp e6c3960e-1852-400f-b778-a1a8cfc94b68))
     (pad "2" smd rect locked (at 3.185 0 90) (size 3.81 4.24) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+6V") (pintype "passive") (tstamp 82af4774-0f8f-4018-8906-b6a149ac0a90))
-    (model "${KIPRJMOD}/User Library-OMNI-BLOK littelfuse.STEP"
+    (model "${KIPRJMOD}/3D_models/User Library-OMNI-BLOK littelfuse.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1687,7 +1687,7 @@
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 76bace6a-0966-4366-b167-8c58bed00329))
     (pad "S1" thru_hole oval locked (at -4.32 2.075) (size 1 1.8) (drill oval 0.6 1.4) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp dbe6795d-6077-48b6-924b-10b1b2a910b6))
-    (model "${KIPRJMOD}/HRO_TYPE-C-31-M-12.step"
+    (model "${KIPRJMOD}/3D_models/HRO_TYPE-C-31-M-12.step"
       (offset (xyz -4.5 -4.65 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3257,7 +3257,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/SRP1245A series.stp"
+    (model "${KIPRJMOD}/3D_models/SRP1245A series.stp"
       (offset (xyz 0 0 3.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -180 0))
@@ -3692,7 +3692,7 @@
       (net 22 "/MainBoard/Servos/6V3") (pintype "passive") (tstamp 89080d5f-56b0-45e6-ba0c-7209d40314db))
     (pad "2" smd rect locked (at 3.185 0 90) (size 3.81 4.24) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+6V") (pintype "passive") (tstamp 0c972e7c-c500-4d83-a3cf-cfb37b7fff49))
-    (model "${KIPRJMOD}/User Library-OMNI-BLOK littelfuse.STEP"
+    (model "${KIPRJMOD}/3D_models/User Library-OMNI-BLOK littelfuse.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -3727,7 +3727,7 @@
       (net 24 "/MainBoard/Servos/6V4") (pintype "passive") (tstamp 66184765-8020-4280-9332-b6d9b3c8d642))
     (pad "2" smd rect locked (at 3.185 0 90) (size 3.81 4.24) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+6V") (pintype "passive") (tstamp 5c3bbaff-53f4-4014-b5ed-9b31deabe727))
-    (model "${KIPRJMOD}/User Library-OMNI-BLOK littelfuse.STEP"
+    (model "${KIPRJMOD}/3D_models/User Library-OMNI-BLOK littelfuse.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -4250,7 +4250,7 @@
       (net 47 "/MainBoard/AD_6V") (pintype "passive") (tstamp 39021266-2592-471d-8370-bd574ebf389b))
     (pad "2" smd rect locked (at 3.185 0 270) (size 3.81 4.24) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "+6V") (pintype "passive") (tstamp efd5855d-45e3-41c7-be6e-5322deacf36b))
-    (model "${KIPRJMOD}/User Library-OMNI-BLOK littelfuse.STEP"
+    (model "${KIPRJMOD}/3D_models/User Library-OMNI-BLOK littelfuse.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -5799,7 +5799,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/ESP32-S3-MINI-1-N8.stp"
+    (model "${KIPRJMOD}/3D_models/ESP32-S3-MINI-1-N8.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

@@ -1,9 +1,0 @@
-Manufacturer=LITTELFUSE
-PartNumber=01550900M
-PartCategory=Undefined or Miscellaneous
-PackageCategory=Other
-PinCount=2
-Version=1.2
-Released=2017-08-25 12:21:30
-Downloaded=2020-03-18 16:02:24
-3D=N
