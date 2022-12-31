@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name SmallKat-v2-rescue)(type Legacy)(uri "${KIPRJMOD}/SmallKat v2-rescue.lib")(options "")(descr ""))
+  (lib (name "SmallKat-v2-rescue")(type "Legacy")(uri "${KIPRJMOD}/SmallKat v2-rescue.lib")(options "")(descr ""))
+  (lib (name "BNO085")(type "Legacy")(uri "${KIPRJMOD}/BNO085/BNO085.lib")(options "")(descr ""))
 )

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BMM150
+D Board Mount Hall Effect / Magnetic Sensors 3-Axis 1.56x1.56mm WLCSP-12 Geomagnetic
+K
+F https://www.arrow.com/en/products/bmm150/bosch
+$ENDCMP
+#
+#End Doc Library
