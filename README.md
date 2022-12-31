@@ -1,36 +1,52 @@
-# Esp32-Motherboard
+# Esp32-S3 Motherboard
 
 ## Pins
 |Pin|Use|
 |---|---|
 | 0| Boot|
-| 1| TX|
-| 2| SD_DATA0|
-| 3| RX|
-| 4| SD_DATA1|
-| 5| AD_SERVO_1|
-| 12| SD_DATA2|
-| 13| SD_DATA3|
-| 14| SD_CLK|
-| 15| SD_CMD|
-| 16| AD_SERVO_2|
-| 17| AD_SERVO_3|
-| 18| EN_SERVO_DRIVER|
-| 19| AD_SERVO_4|
-| 21| SDA |
-| 22| SCL |
-| 23| LED|
-| 25| BATT_VOLTAGE_ADC|
-| 26| 6_VOLT_ADC|
-| 27| SCL_1|
-| 32| SDA_1|
-| 33| Fuse5_ADC|
-| 34| FUSE2_ADC|
-| 35| FUSE1_ADC|
-| 36| FUSE3_ADC|
-| 39| FUSE4_ADC|
+| 1| Servo 15|
+| 2| Servo 14|
+| 3| Servo 13|
+| 4| Servo 12|
+| 5| Fuse 4 ADC|
+| 6| Fuse 1 ADC|
+| 7| Servo 0|
+| 8| Servo 1|
+| 9| Servo 2|
+| 10| Servo 3|
+| 11| Fuse 2 ADC|
+| 12| Servo 4|
+| 13| Servo 5|
+| 14| Servo 6|
+| 15| 6V ADC|
+| 16| Batt Voltage ADC|
+| 17| Fuse 3 ADC|
+| 18| Fuse 5 ADC|
+| 19| USB -|
+| 20| USB +|
+| 21| Servo 7|
+| 26| AD Servo 1|
+| 33| AD Servo 3|
+| 34| AD Servo 4|
+| 35| Batt Serial TX|
+| 36| Heart Beat LED|
+| 37| Servo 8|
+| 38| Servo 9|
+| 39| Servo 10|
+| 40| Servo 11|
+| 41| |
+| 42| |
+| 43| TX|
+| 44| RX|
+| 45| SCL|
+| 46| SDA|
+| 47| AD Servo 2|
+| 48| Batt Serial RX|
 
 ## I2C
 
-  * i2c 1 (SCL 22, SDA 21) - BNO055, QwIIC connector
-  * i2c 2 (SCL 27, SDA 32) - PCA9685
+  * i2c (SCL 45, SDA 46) - BNO055
+
+## Serial 
+  * Serial 0: Tx 43, Rx 44
+  * Serial 1: Tx 35, Rx 48

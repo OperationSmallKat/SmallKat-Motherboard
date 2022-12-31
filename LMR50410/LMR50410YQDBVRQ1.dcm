@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LMR50410YQDBVRQ1
-D Switching Voltage Regulators Automotive qualified SIMPLE SWITCHER 4-V to 36-V, 1-A synchronous step-down converter 6-SOT-23 -40 to 150
-K
-F https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf?ts=1599768400389&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DLMR50410YQDBVRQ1
-$ENDCMP
-#
-#End Doc Library
