@@ -34,18 +34,18 @@
 | 38| Servo 9|
 | 39| Servo 10|
 | 40| Servo 11|
-| 41| |
-| 42| |
+| 41| SDA|
+| 42| SCL|
 | 43| TX|
 | 44| RX|
-| 45| SCL|
-| 46| SDA|
+| 45| |
+| 46| |
 | 47| AD Servo 2|
 | 48| Batt Serial RX|
 
 ## I2C
 
-  * i2c (SCL 45, SDA 46) - BNO055
+  * i2c (SCL 42, SDA 41) - BNO055
 
 ## Serial 
   * Serial 0: Tx 43, Rx 44
