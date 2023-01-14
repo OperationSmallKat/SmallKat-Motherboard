@@ -671,7 +671,7 @@
     (property "Reference" "AC1" (id 0) (at 168.3894 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BNO085" (id 1) (at 168.3894 66.04 0)
+    (property "Value" "BNO055" (id 1) (at 168.3894 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "BNO085:BNO085" (id 2) (at 182.88 68.58 0)
