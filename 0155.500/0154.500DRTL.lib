@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 0154.500DRTL
+#/1392827/23739/2.49/2/3/Fuse
+DEF 0154.500DRTL F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "0154.500DRTL" 550 150 50 H V L CNN
+F2 "0154500DRTL" 550 50 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" 550 -50 50 H I L CNN
+F4 "Fuse Chip Slow Blow Acting 0.5A SMD Solder Pad 9.73 X 5.03 X 3.81mm T/R CSA/PSE/UL" 550 -150 50 H I L CNN "Description"
+F5 "3.81" 550 -250 50 H I L CNN "Height"
+F6 "LITTELFUSE" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0154.500DRTL" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "576-0154.500DRTL" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/0154.500DRTL?qs=tQeA2zcAjvXJuhM5EDjhiQ%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "0154.500DRTL" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/0154.500drtl/littelfuse?region=nac" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
